@@ -4,6 +4,7 @@ import requests
 
 # scrapping top 14000+ anime names and rating from MAL (by popularity)
 
+
 def main():
     ratings, names = [], []
     for i in range(0, 300, 50):
