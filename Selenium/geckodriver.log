@@ -1,0 +1,2136 @@
+1670182151766	geckodriver	INFO	Listening on 127.0.0.1:40827
+1670182151777	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38137" "-no-remote" "-profile" "/tmp/rust_mozprofilexUNdp7"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670182153560	Marionette	INFO	Marionette enabled
+1670182153572	Marionette	INFO	Listening on port 42343
+WebDriver BiDi listening on ws://127.0.0.1:38137
+1670182153914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexUNdp7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38137/devtools/browser/693b8d6e-e10f-4b9a-9dee-8e4ae5e3f11e
+1670182158346	Marionette	INFO	Stopped listening on port 42343
+1670182195199	geckodriver	INFO	Listening on 127.0.0.1:46527
+1670182195210	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58125" "-no-remote" "-profile" "/tmp/rust_mozprofilekFXW10"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670182196708	Marionette	INFO	Marionette enabled
+1670182196716	Marionette	INFO	Listening on port 45783
+WebDriver BiDi listening on ws://127.0.0.1:58125
+1670182196937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekFXW10/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58125/devtools/browser/2d803b05-41e6-4080-b587-6385e3afc31d
+1670182211107	Marionette	INFO	Stopped listening on port 45783
+1670182777743	geckodriver	INFO	Listening on 127.0.0.1:36085
+1670182777754	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51435" "-no-remote" "-profile" "/tmp/rust_mozprofile4gX4HW"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670182779160	Marionette	INFO	Marionette enabled
+1670182779170	Marionette	INFO	Listening on port 45859
+WebDriver BiDi listening on ws://127.0.0.1:51435
+1670182779411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4gX4HW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51435/devtools/browser/11b251fe-2cb6-4e75-ad2d-6a179fe03eb1
+1670182795342	Marionette	INFO	Stopped listening on port 45859
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670182843398	geckodriver	INFO	Listening on 127.0.0.1:54195
+1670182843417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33641" "-no-remote" "-profile" "/tmp/rust_mozprofileovzmtU"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670182845262	Marionette	INFO	Marionette enabled
+1670182845270	Marionette	INFO	Listening on port 38215
+WebDriver BiDi listening on ws://127.0.0.1:33641
+1670182845564	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileovzmtU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33641/devtools/browser/b533399e-81a4-4947-869f-b2f65e045d2d
+1670182856031	Marionette	INFO	Stopped listening on port 38215
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670182947724	geckodriver	INFO	Listening on 127.0.0.1:34555
+1670182947735	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39903" "-no-remote" "-profile" "/tmp/rust_mozprofileiaKi57"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670182949163	Marionette	INFO	Marionette enabled
+1670182949170	Marionette	INFO	Listening on port 40541
+WebDriver BiDi listening on ws://127.0.0.1:39903
+1670182949379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiaKi57/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39903/devtools/browser/8bec4953-61b8-4e7f-8dfe-39c5db7c162d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670182999437	Marionette	INFO	Stopped listening on port 40541
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670183064007	geckodriver	INFO	Listening on 127.0.0.1:59199
+1670183064021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43941" "-no-remote" "-profile" "/tmp/rust_mozprofilej4INj9"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670183065972	Marionette	INFO	Marionette enabled
+1670183065983	Marionette	INFO	Listening on port 42961
+WebDriver BiDi listening on ws://127.0.0.1:43941
+1670183066285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilej4INj9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43941/devtools/browser/49d01ad7-f7c1-4935-9a1d-b4385b0795ba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670183488499	geckodriver	INFO	Listening on 127.0.0.1:32865
+1670183488514	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36623" "-no-remote" "-profile" "/tmp/rust_mozprofileBpA5Se"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670183490504	Marionette	INFO	Marionette enabled
+1670183490516	Marionette	INFO	Listening on port 39977
+WebDriver BiDi listening on ws://127.0.0.1:36623
+1670183490829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBpA5Se/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36623/devtools/browser/0342c43a-7350-47c3-9e61-5efd26c26ab5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670183502150	Marionette	INFO	Stopped listening on port 42961
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670183506853	Marionette	INFO	Stopped listening on port 39977
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670183642333	geckodriver	INFO	Listening on 127.0.0.1:47453
+1670183642348	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57087" "-no-remote" "-profile" "/tmp/rust_mozprofileXhaQxd"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670183644382	Marionette	INFO	Marionette enabled
+1670183644394	Marionette	INFO	Listening on port 45943
+WebDriver BiDi listening on ws://127.0.0.1:57087
+1670183644747	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXhaQxd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57087/devtools/browser/45e69269-21ea-4431-a226-cfebda867433
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670183662982	Marionette	INFO	Stopped listening on port 45943
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670183747669	geckodriver	INFO	Listening on 127.0.0.1:56811
+1670183747680	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52057" "-no-remote" "-profile" "/tmp/rust_mozprofileDuj8il"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670183749147	Marionette	INFO	Marionette enabled
+1670183749155	Marionette	INFO	Listening on port 39237
+WebDriver BiDi listening on ws://127.0.0.1:52057
+1670183749375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDuj8il/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52057/devtools/browser/30c15dd8-a76b-4b32-a581-faac19fdde96
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670183896084	geckodriver	INFO	Listening on 127.0.0.1:40253
+1670183896094	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42987" "-no-remote" "-profile" "/tmp/rust_mozprofileG18F6N"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670183897701	Marionette	INFO	Marionette enabled
+1670183897709	Marionette	INFO	Listening on port 35769
+WebDriver BiDi listening on ws://127.0.0.1:42987
+1670183897956	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileG18F6N/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42987/devtools/browser/0bc63efa-5e3c-4f43-a076-7a5e6a4b8db3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670183922366	Marionette	INFO	Stopped listening on port 39237
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670183956687	geckodriver	INFO	Listening on 127.0.0.1:56621
+1670183956699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49095" "-no-remote" "-profile" "/tmp/rust_mozprofileSkdVSR"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670183958327	Marionette	INFO	Marionette enabled
+1670183958339	Marionette	INFO	Listening on port 32995
+WebDriver BiDi listening on ws://127.0.0.1:49095
+1670183958789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSkdVSR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49095/devtools/browser/7c8e0bdc-4591-4c33-97e9-abc834b04fe4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670183968733	Marionette	INFO	Stopped listening on port 35769
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670183977927	Marionette	INFO	Stopped listening on port 32995
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670184260304	geckodriver	INFO	Listening on 127.0.0.1:35435
+1670184260315	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51349" "-no-remote" "-profile" "/tmp/rust_mozprofileBMbT1t"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670184261737	Marionette	INFO	Marionette enabled
+1670184261744	Marionette	INFO	Listening on port 39997
+WebDriver BiDi listening on ws://127.0.0.1:51349
+1670184261954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBMbT1t/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51349/devtools/browser/92bf3d47-f17b-4856-8413-8bba1ac24ff5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670184438809	geckodriver	INFO	Listening on 127.0.0.1:49459
+1670184438820	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49475" "-no-remote" "-profile" "/tmp/rust_mozprofile3BBh5a"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670184440557	Marionette	INFO	Marionette enabled
+1670184440568	Marionette	INFO	Listening on port 34611
+WebDriver BiDi listening on ws://127.0.0.1:49475
+1670184440848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3BBh5a/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49475/devtools/browser/a7f8f951-597e-452a-8199-dc130d4eca91
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 574: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1670184452618	Marionette	INFO	Stopped listening on port 39997
+1670184455202	Marionette	INFO	Stopped listening on port 34611
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670185064647	geckodriver	INFO	Listening on 127.0.0.1:42429
+1670185064662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55317" "-no-remote" "-profile" "/tmp/rust_mozprofile4y0ZZh"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670185066568	Marionette	INFO	Marionette enabled
+1670185066579	Marionette	INFO	Listening on port 33957
+WebDriver BiDi listening on ws://127.0.0.1:55317
+1670185066892	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4y0ZZh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55317/devtools/browser/f11622ba-51b7-46d0-88d1-a66073b26026
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670185079637	Marionette	INFO	Stopped listening on port 33957
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670185405186	geckodriver	INFO	Listening on 127.0.0.1:44997
+1670185405196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50087" "-no-remote" "-profile" "/tmp/rust_mozprofilek94uu2"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670185406698	Marionette	INFO	Marionette enabled
+1670185406706	Marionette	INFO	Listening on port 37871
+WebDriver BiDi listening on ws://127.0.0.1:50087
+1670185406958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilek94uu2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50087/devtools/browser/405fd1fa-483b-4489-be8b-e19cded853b9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670185410778	Marionette	INFO	Stopped listening on port 37871
+1670185551406	geckodriver	INFO	Listening on 127.0.0.1:44869
+1670185551416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58155" "-no-remote" "-profile" "/tmp/rust_mozprofileR6FZ2n"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670185552945	Marionette	INFO	Marionette enabled
+1670185552952	Marionette	INFO	Listening on port 34583
+WebDriver BiDi listening on ws://127.0.0.1:58155
+1670185553183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileR6FZ2n/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58155/devtools/browser/84bb5d02-b620-490d-99c7-26e5763e962d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670185556923	Marionette	INFO	Stopped listening on port 34583
+1670185750522	geckodriver	INFO	Listening on 127.0.0.1:49497
+1670185750533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60409" "-no-remote" "-profile" "/tmp/rust_mozprofileGg2Jk7"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670185752309	Marionette	INFO	Marionette enabled
+1670185752319	Marionette	INFO	Listening on port 34815
+WebDriver BiDi listening on ws://127.0.0.1:60409
+1670185752636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGg2Jk7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60409/devtools/browser/ada0566d-86a7-42f8-9773-6ddb4b3f97d2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670185757857	Marionette	INFO	Stopped listening on port 34815
+1670185914655	geckodriver	INFO	Listening on 127.0.0.1:51079
+1670185914667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60011" "-no-remote" "-profile" "/tmp/rust_mozprofileDEr79i"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670185916050	Marionette	INFO	Marionette enabled
+1670185916057	Marionette	INFO	Listening on port 46759
+WebDriver BiDi listening on ws://127.0.0.1:60011
+1670185916283	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDEr79i/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60011/devtools/browser/0adb0d34-2bba-440e-812f-be36b486909f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670185930642	Marionette	INFO	Stopped listening on port 46759
+1670185998146	geckodriver	INFO	Listening on 127.0.0.1:40413
+1670185998156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51549" "-no-remote" "-profile" "/tmp/rust_mozprofile2xObDe"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670185999738	Marionette	INFO	Marionette enabled
+1670185999748	Marionette	INFO	Listening on port 33887
+WebDriver BiDi listening on ws://127.0.0.1:51549
+1670186000037	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2xObDe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51549/devtools/browser/7e8849e6-1b0b-4450-b370-fd04b2f40e93
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670186024454	geckodriver	INFO	Listening on 127.0.0.1:59445
+1670186024465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48167" "-no-remote" "-profile" "/tmp/rust_mozprofileEKN86W"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670186026070	Marionette	INFO	Marionette enabled
+1670186026078	Marionette	INFO	Listening on port 40305
+WebDriver BiDi listening on ws://127.0.0.1:48167
+1670186026336	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEKN86W/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48167/devtools/browser/405a60e5-2948-428d-8bc8-80c23600b641
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+1670186055308	Marionette	INFO	Stopped listening on port 40305
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670186056546	Marionette	INFO	Stopped listening on port 33887
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670186060376	geckodriver	INFO	Listening on 127.0.0.1:60043
+1670186060385	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47247" "-no-remote" "-profile" "/tmp/rust_mozprofilewIh9LP"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670186061757	Marionette	INFO	Marionette enabled
+1670186061767	Marionette	INFO	Listening on port 39891
+WebDriver BiDi listening on ws://127.0.0.1:47247
+1670186062045	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewIh9LP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47247/devtools/browser/3afa042a-4aa5-4f77-b9cb-5cf696da9613
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670186100506	geckodriver	INFO	Listening on 127.0.0.1:57183
+1670186100517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52487" "-no-remote" "-profile" "/tmp/rust_mozprofileeIzvmY"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670186101924	Marionette	INFO	Marionette enabled
+1670186101931	Marionette	INFO	Listening on port 33583
+WebDriver BiDi listening on ws://127.0.0.1:52487
+1670186102139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeIzvmY/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52487/devtools/browser/d93f3497-2f3a-4435-a948-8a9bf15243b5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670186114916	Marionette	INFO	Stopped listening on port 33583
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670186116122	Marionette	INFO	Stopped listening on port 39891
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670186166665	geckodriver	INFO	Listening on 127.0.0.1:56385
+1670186166674	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49387" "-no-remote" "-profile" "/tmp/rust_mozprofileZvZ415"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670186168099	Marionette	INFO	Marionette enabled
+1670186168107	Marionette	INFO	Listening on port 38735
+WebDriver BiDi listening on ws://127.0.0.1:49387
+1670186168320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZvZ415/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49387/devtools/browser/44899110-c0f2-4d99-87cc-982f03b75c02
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670186209472	Marionette	INFO	Stopped listening on port 38735
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670188150441	geckodriver	INFO	Listening on 127.0.0.1:59431
+1670188150452	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34425" "-no-remote" "-profile" "/tmp/rust_mozprofilebjKQ4G"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670188152165	Marionette	INFO	Marionette enabled
+1670188152174	Marionette	INFO	Listening on port 35999
+WebDriver BiDi listening on ws://127.0.0.1:34425
+1670188152451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebjKQ4G/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34425/devtools/browser/791a6a9c-9861-406e-8f76-4399f796422e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670188283858	Marionette	INFO	Stopped listening on port 35999
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670188369008	geckodriver	INFO	Listening on 127.0.0.1:58255
+1670188369019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33767" "-no-remote" "-profile" "/tmp/rust_mozprofileWjxOPU"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670188370394	Marionette	INFO	Marionette enabled
+1670188370402	Marionette	INFO	Listening on port 44353
+WebDriver BiDi listening on ws://127.0.0.1:33767
+1670188370618	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWjxOPU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33767/devtools/browser/528d05f0-bb06-4973-a27a-3351c4cce79c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670188403733	Marionette	INFO	Stopped listening on port 44353
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670188585700	geckodriver	INFO	Listening on 127.0.0.1:57759
+1670188585711	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50937" "-no-remote" "-profile" "/tmp/rust_mozprofile7KzP49"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670188587174	Marionette	INFO	Marionette enabled
+1670188587182	Marionette	INFO	Listening on port 38837
+WebDriver BiDi listening on ws://127.0.0.1:50937
+1670188587394	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7KzP49/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50937/devtools/browser/b870b382-d678-4829-aa78-d95d1bc2386f
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670188626677	geckodriver	INFO	Listening on 127.0.0.1:53663
+1670188626687	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37717" "-no-remote" "-profile" "/tmp/rust_mozprofileXUustn"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670188628097	Marionette	INFO	Marionette enabled
+1670188628106	Marionette	INFO	Listening on port 45505
+WebDriver BiDi listening on ws://127.0.0.1:37717
+1670188628432	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXUustn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37717/devtools/browser/d198cfde-b35c-4675-8628-dc16b872958b
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+1670188762451	geckodriver	INFO	Listening on 127.0.0.1:53927
+1670188762461	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38905" "-no-remote" "-profile" "/tmp/rust_mozprofileuBNMel"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670188764007	Marionette	INFO	Marionette enabled
+1670188764014	Marionette	INFO	Listening on port 42955
+WebDriver BiDi listening on ws://127.0.0.1:38905
+1670188764263	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuBNMel/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38905/devtools/browser/4d09ea34-033b-4c0c-aa95-e3ee4dbe15f2
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 763))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 415))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670188771887	Marionette	INFO	Stopped listening on port 45505
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670188800117	geckodriver	INFO	Listening on 127.0.0.1:48525
+1670188800128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38863" "-no-remote" "-profile" "/tmp/rust_mozprofile31yN9p"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670188801667	Marionette	INFO	Marionette enabled
+1670188801674	Marionette	INFO	Listening on port 42027
+WebDriver BiDi listening on ws://127.0.0.1:38863
+1670188801916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile31yN9p/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+DevTools listening on ws://127.0.0.1:38863/devtools/browser/860819c8-7039-4443-b8dd-e1069378e2ba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670188822420	Marionette	INFO	Stopped listening on port 42955
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670188824162	Marionette	INFO	Stopped listening on port 42027
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670188842662	geckodriver	INFO	Listening on 127.0.0.1:57827
+1670188842673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52021" "-no-remote" "-profile" "/tmp/rust_mozprofile1onTHK"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670188844605	Marionette	INFO	Marionette enabled
+1670188844614	Marionette	INFO	Listening on port 34841
+WebDriver BiDi listening on ws://127.0.0.1:52021
+1670188844856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1onTHK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52021/devtools/browser/e9c8ec83-83a5-4313-b4aa-ff6dd12d05e3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670189466877	geckodriver	INFO	Listening on 127.0.0.1:49179
+1670189466889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35767" "-no-remote" "-profile" "/tmp/rust_mozprofile81UOE2"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670189468208	Marionette	INFO	Marionette enabled
+1670189468215	Marionette	INFO	Listening on port 32959
+WebDriver BiDi listening on ws://127.0.0.1:35767
+1670189468451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile81UOE2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35767/devtools/browser/0a5b946d-6c18-42d0-b0ae-29a81bb8ba09
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670189491432	Marionette	INFO	Stopped listening on port 32959
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670189493516	Marionette	INFO	Stopped listening on port 34841
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190049373	geckodriver	INFO	Listening on 127.0.0.1:34629
+1670190049383	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37527" "-no-remote" "-profile" "/tmp/rust_mozprofileizfH23"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190051108	Marionette	INFO	Marionette enabled
+1670190051119	Marionette	INFO	Listening on port 33797
+WebDriver BiDi listening on ws://127.0.0.1:37527
+1670190051414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileizfH23/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37527/devtools/browser/83e37cab-9bca-4e19-9cd5-8bb129725ba5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190056028	Marionette	INFO	Stopped listening on port 33797
+1670190081664	geckodriver	INFO	Listening on 127.0.0.1:56341
+1670190081682	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42549" "-no-remote" "-profile" "/tmp/rust_mozprofileQHWPw4"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190083544	Marionette	INFO	Marionette enabled
+1670190083552	Marionette	INFO	Listening on port 46135
+WebDriver BiDi listening on ws://127.0.0.1:42549
+1670190083816	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQHWPw4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42549/devtools/browser/92441538-9527-4975-a694-18ebb3ab3860
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190087626	Marionette	INFO	Stopped listening on port 46135
+1670190117718	geckodriver	INFO	Listening on 127.0.0.1:49663
+1670190117726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36961" "-no-remote" "-profile" "/tmp/rust_mozprofileLcdQVP"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190118937	Marionette	INFO	Marionette enabled
+1670190118944	Marionette	INFO	Listening on port 43389
+WebDriver BiDi listening on ws://127.0.0.1:36961
+1670190119144	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLcdQVP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36961/devtools/browser/60b8f2a4-6e78-4a73-9dee-34bc6284b54f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190124296	Marionette	INFO	Stopped listening on port 43389
+1670190174071	geckodriver	INFO	Listening on 127.0.0.1:52871
+1670190174079	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55557" "-no-remote" "-profile" "/tmp/rust_mozprofileDSBH5j"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190175359	Marionette	INFO	Marionette enabled
+1670190175366	Marionette	INFO	Listening on port 33301
+WebDriver BiDi listening on ws://127.0.0.1:55557
+1670190175570	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDSBH5j/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55557/devtools/browser/82a5b43c-d6be-42d2-985c-d280571264f9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190202482	geckodriver	INFO	Listening on 127.0.0.1:48021
+1670190202491	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39901" "-no-remote" "-profile" "/tmp/rust_mozprofilequiytG"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190203859	Marionette	INFO	Marionette enabled
+1670190203868	Marionette	INFO	Listening on port 45911
+WebDriver BiDi listening on ws://127.0.0.1:39901
+1670190204121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilequiytG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39901/devtools/browser/c201a395-4431-41f2-b349-98c9680cf747
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190251471	Marionette	INFO	Stopped listening on port 45911
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190252839	Marionette	INFO	Stopped listening on port 33301
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190330400	geckodriver	INFO	Listening on 127.0.0.1:45227
+1670190330408	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59841" "-no-remote" "-profile" "/tmp/rust_mozprofilerF6xU4"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190331586	Marionette	INFO	Marionette enabled
+1670190331594	Marionette	INFO	Listening on port 40261
+WebDriver BiDi listening on ws://127.0.0.1:59841
+1670190331807	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerF6xU4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59841/devtools/browser/8f81ff9c-bdd2-488e-9a8c-162dfd01b290
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190362801	geckodriver	INFO	Listening on 127.0.0.1:36069
+1670190362807	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44531" "-no-remote" "-profile" "/tmp/rust_mozprofile842djV"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190363946	Marionette	INFO	Marionette enabled
+1670190363953	Marionette	INFO	Listening on port 34297
+WebDriver BiDi listening on ws://127.0.0.1:44531
+1670190364148	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile842djV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44531/devtools/browser/3cc48147-40b7-4778-a0ea-f0899c083d96
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190378492	Marionette	INFO	Stopped listening on port 34297
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190379959	Marionette	INFO	Stopped listening on port 40261
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190400202	geckodriver	INFO	Listening on 127.0.0.1:44205
+1670190400211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46717" "-no-remote" "-profile" "/tmp/rust_mozprofileciTJTH"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190401463	Marionette	INFO	Marionette enabled
+1670190401473	Marionette	INFO	Listening on port 45309
+WebDriver BiDi listening on ws://127.0.0.1:46717
+1670190401699	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileciTJTH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46717/devtools/browser/2aa9c37c-08c4-431e-af68-f368719eca7a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190413722	Marionette	INFO	Stopped listening on port 45309
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190417850	geckodriver	INFO	Listening on 127.0.0.1:60797
+1670190417858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40639" "-no-remote" "-profile" "/tmp/rust_mozprofileca74ao"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190419086	Marionette	INFO	Marionette enabled
+1670190419094	Marionette	INFO	Listening on port 44053
+WebDriver BiDi listening on ws://127.0.0.1:40639
+1670190419300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileca74ao/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40639/devtools/browser/6a571f03-64fe-4f71-8947-27604399112e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190441806	Marionette	INFO	Stopped listening on port 44053
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190524157	geckodriver	INFO	Listening on 127.0.0.1:51931
+1670190524167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50183" "-no-remote" "-profile" "/tmp/rust_mozprofilenmwsWI"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190525513	Marionette	INFO	Marionette enabled
+1670190525522	Marionette	INFO	Listening on port 46395
+WebDriver BiDi listening on ws://127.0.0.1:50183
+1670190525771	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenmwsWI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50183/devtools/browser/931e328d-4eaf-48e9-9347-c76dd5d2645f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190543110	Marionette	INFO	Stopped listening on port 46395
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190760209	geckodriver	INFO	Listening on 127.0.0.1:54729
+1670190760217	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35361" "-no-remote" "-profile" "/tmp/rust_mozprofileHJKgCv"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190761461	Marionette	INFO	Marionette enabled
+1670190761468	Marionette	INFO	Listening on port 42385
+WebDriver BiDi listening on ws://127.0.0.1:35361
+1670190761670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHJKgCv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35361/devtools/browser/053747cc-b781-4eb1-b055-10668f65ff26
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190802778	geckodriver	INFO	Listening on 127.0.0.1:60107
+1670190802787	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38575" "-no-remote" "-profile" "/tmp/rust_mozprofileUOXxLJ"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190804068	Marionette	INFO	Marionette enabled
+1670190804076	Marionette	INFO	Listening on port 40579
+WebDriver BiDi listening on ws://127.0.0.1:38575
+1670190804289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUOXxLJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38575/devtools/browser/e2310407-47f9-4845-8cde-0d950ea637e3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190814392	Marionette	INFO	Stopped listening on port 40579
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190826837	Marionette	INFO	Stopped listening on port 42385
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190860156	geckodriver	INFO	Listening on 127.0.0.1:39603
+1670190860165	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56393" "-no-remote" "-profile" "/tmp/rust_mozprofilewKInJN"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190861714	Marionette	INFO	Marionette enabled
+1670190861723	Marionette	INFO	Listening on port 39313
+WebDriver BiDi listening on ws://127.0.0.1:56393
+1670190861991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewKInJN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56393/devtools/browser/1fc92039-e295-44d1-8353-94cb84812bcc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190886079	geckodriver	INFO	Listening on 127.0.0.1:43927
+1670190886091	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36267" "-no-remote" "-profile" "/tmp/rust_mozprofileXjz8f1"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190887722	Marionette	INFO	Marionette enabled
+1670190887732	Marionette	INFO	Listening on port 43349
+WebDriver BiDi listening on ws://127.0.0.1:36267
+1670190888022	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXjz8f1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36267/devtools/browser/08805200-0e07-4166-941b-137167c6015c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670190918845	Marionette	INFO	Stopped listening on port 43349
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190920162	Marionette	INFO	Stopped listening on port 39313
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670190961942	geckodriver	INFO	Listening on 127.0.0.1:58353
+1670190961949	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46281" "-no-remote" "-profile" "/tmp/rust_mozprofile3IjAI4"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670190963094	Marionette	INFO	Marionette enabled
+1670190963101	Marionette	INFO	Listening on port 39987
+WebDriver BiDi listening on ws://127.0.0.1:46281
+1670190963302	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3IjAI4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46281/devtools/browser/7ccf7944-2eb9-43ed-8275-916db7453c3f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670191011262	Marionette	INFO	Stopped listening on port 39987
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670191336834	geckodriver	INFO	Listening on 127.0.0.1:52413
+1670191336843	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46165" "-no-remote" "-profile" "/tmp/rust_mozprofileJkjZg6"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670191338118	Marionette	INFO	Marionette enabled
+1670191338125	Marionette	INFO	Listening on port 46063
+WebDriver BiDi listening on ws://127.0.0.1:46165
+1670191338325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJkjZg6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46165/devtools/browser/9e1efcde-138f-4316-b960-ef29866e37b5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670191352761	Marionette	INFO	Stopped listening on port 46063
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670191386635	geckodriver	INFO	Listening on 127.0.0.1:43841
+1670191386644	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57723" "-no-remote" "-profile" "/tmp/rust_mozprofilesAR1tV"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670191387827	Marionette	INFO	Marionette enabled
+1670191387834	Marionette	INFO	Listening on port 37129
+WebDriver BiDi listening on ws://127.0.0.1:57723
+1670191388030	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesAR1tV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57723/devtools/browser/8e047b47-5885-497e-9d5c-625761c007e8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670191422924	geckodriver	INFO	Listening on 127.0.0.1:56201
+1670191422933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39323" "-no-remote" "-profile" "/tmp/rust_mozprofileWgaXZj"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670191424295	Marionette	INFO	Marionette enabled
+1670191424303	Marionette	INFO	Listening on port 43489
+WebDriver BiDi listening on ws://127.0.0.1:39323
+1670191424540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWgaXZj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39323/devtools/browser/459c8157-e767-4b6c-a881-bec055328ca2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670191466530	geckodriver	INFO	Listening on 127.0.0.1:51387
+1670191466540	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47393" "-no-remote" "-profile" "/tmp/rust_mozprofileDcgMNf"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670191468158	Marionette	INFO	Marionette enabled
+1670191468166	Marionette	INFO	Listening on port 44961
+WebDriver BiDi listening on ws://127.0.0.1:47393
+1670191468467	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDcgMNf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47393/devtools/browser/5e96cc47-b5ad-4f75-87c8-8348618a83fb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670191552826	Marionette	INFO	Stopped listening on port 44961
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670191553255	Marionette	INFO	Stopped listening on port 43489
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670191554188	Marionette	INFO	Stopped listening on port 37129
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670191792891	geckodriver	INFO	Listening on 127.0.0.1:49707
+1670191792899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34271" "-no-remote" "-profile" "/tmp/rust_mozprofilezgM9xG"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670191794147	Marionette	INFO	Marionette enabled
+1670191794154	Marionette	INFO	Listening on port 38125
+WebDriver BiDi listening on ws://127.0.0.1:34271
+1670191794354	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezgM9xG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34271/devtools/browser/4c48d7eb-5953-4a02-bc44-593d01cc8896
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670191881354	Marionette	INFO	Stopped listening on port 38125
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670192279106	geckodriver	INFO	Listening on 127.0.0.1:55973
+1670192279119	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57615" "-no-remote" "-profile" "/tmp/rust_mozprofilecONzGI"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192280300	Marionette	INFO	Marionette enabled
+1670192280307	Marionette	INFO	Listening on port 33569
+WebDriver BiDi listening on ws://127.0.0.1:57615
+1670192280503	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecONzGI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57615/devtools/browser/04180c4f-0310-455b-8044-1884dff8a183
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192349709	Marionette	INFO	Stopped listening on port 33569
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670192490309	geckodriver	INFO	Listening on 127.0.0.1:49057
+1670192490317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36737" "-no-remote" "-profile" "/tmp/rust_mozprofileL2zHBy"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192491554	Marionette	INFO	Marionette enabled
+1670192491561	Marionette	INFO	Listening on port 43881
+WebDriver BiDi listening on ws://127.0.0.1:36737
+1670192491768	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL2zHBy/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36737/devtools/browser/0b1a4851-1629-4536-a0c9-e5d2b35f21ff
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192537994	geckodriver	INFO	Listening on 127.0.0.1:51855
+1670192538015	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59351" "-no-remote" "-profile" "/tmp/rust_mozprofile0WTwNN"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192539574	Marionette	INFO	Marionette enabled
+1670192539582	Marionette	INFO	Listening on port 37969
+WebDriver BiDi listening on ws://127.0.0.1:59351
+1670192539851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0WTwNN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59351/devtools/browser/f7bf766b-af64-4299-a4c6-c96f241700dd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192572865	Marionette	INFO	Stopped listening on port 37969
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192575403	Marionette	INFO	Stopped listening on port 43881
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670192590476	geckodriver	INFO	Listening on 127.0.0.1:49133
+1670192590485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34499" "-no-remote" "-profile" "/tmp/rust_mozprofileoxMRmi"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192591775	Marionette	INFO	Marionette enabled
+1670192591782	Marionette	INFO	Listening on port 40135
+WebDriver BiDi listening on ws://127.0.0.1:34499
+1670192592043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoxMRmi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34499/devtools/browser/c032efd0-ce09-40c3-9719-6b7fc8768f33
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192625379	Marionette	INFO	Stopped listening on port 40135
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670192629793	geckodriver	INFO	Listening on 127.0.0.1:40147
+1670192629803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37605" "-no-remote" "-profile" "/tmp/rust_mozprofilejXoarB"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192631245	Marionette	INFO	Marionette enabled
+1670192631254	Marionette	INFO	Listening on port 34233
+WebDriver BiDi listening on ws://127.0.0.1:37605
+1670192631495	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejXoarB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37605/devtools/browser/45821f38-d92a-49eb-9490-387ba6638199
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192642429	Marionette	INFO	Stopped listening on port 34233
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192662844	geckodriver	INFO	Listening on 127.0.0.1:50367
+1670192662852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56483" "-no-remote" "-profile" "/tmp/rust_mozprofilesN2WHL"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192664107	Marionette	INFO	Marionette enabled
+1670192664114	Marionette	INFO	Listening on port 43823
+WebDriver BiDi listening on ws://127.0.0.1:56483
+1670192664327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilesN2WHL/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56483/devtools/browser/3b196e04-5506-40ae-84e2-d997ccdaed8f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192674420	Marionette	INFO	Stopped listening on port 43823
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192691726	geckodriver	INFO	Listening on 127.0.0.1:59877
+1670192691735	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33229" "-no-remote" "-profile" "/tmp/rust_mozprofileVcoBCx"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192693036	Marionette	INFO	Marionette enabled
+1670192693044	Marionette	INFO	Listening on port 46059
+WebDriver BiDi listening on ws://127.0.0.1:33229
+1670192693253	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVcoBCx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33229/devtools/browser/c57dd2ed-f1bf-4943-9cfd-8bfa9e17f895
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192704185	Marionette	INFO	Stopped listening on port 46059
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192723843	geckodriver	INFO	Listening on 127.0.0.1:55399
+1670192723852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38583" "-no-remote" "-profile" "/tmp/rust_mozprofileFiZrpP"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192725539	Marionette	INFO	Marionette enabled
+1670192725556	Marionette	INFO	Listening on port 35319
+WebDriver BiDi listening on ws://127.0.0.1:38583
+1670192725781	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFiZrpP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38583/devtools/browser/43620186-a485-474e-a93c-49bcb04ab22d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192736324	Marionette	INFO	Stopped listening on port 35319
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192753593	geckodriver	INFO	Listening on 127.0.0.1:47267
+1670192753601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50617" "-no-remote" "-profile" "/tmp/rust_mozprofiledzMxwv"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192754882	Marionette	INFO	Marionette enabled
+1670192754890	Marionette	INFO	Listening on port 38253
+WebDriver BiDi listening on ws://127.0.0.1:50617
+1670192755124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledzMxwv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50617/devtools/browser/5d7b2fac-b0e7-43d7-a3b4-ae2b5765a9e2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192765847	Marionette	INFO	Stopped listening on port 38253
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192784043	geckodriver	INFO	Listening on 127.0.0.1:44761
+1670192784052	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57739" "-no-remote" "-profile" "/tmp/rust_mozprofileLzUVqm"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670192785304	Marionette	INFO	Marionette enabled
+1670192785311	Marionette	INFO	Listening on port 46667
+WebDriver BiDi listening on ws://127.0.0.1:57739
+1670192785527	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLzUVqm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57739/devtools/browser/9e9590df-c440-41ce-8bd4-8fd972a552bf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670192796263	Marionette	INFO	Stopped listening on port 46667
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193347038	geckodriver	INFO	Listening on 127.0.0.1:53121
+1670193347046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55329" "-no-remote" "-profile" "/tmp/rust_mozprofileSKaniH"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670193348274	Marionette	INFO	Marionette enabled
+1670193348287	Marionette	INFO	Listening on port 46455
+WebDriver BiDi listening on ws://127.0.0.1:55329
+1670193348524	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSKaniH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55329/devtools/browser/d9b02950-aa9d-4613-bf92-e3006b212e7d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193359322	Marionette	INFO	Stopped listening on port 46455
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193374971	geckodriver	INFO	Listening on 127.0.0.1:35835
+1670193374979	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58397" "-no-remote" "-profile" "/tmp/rust_mozprofilehwIoB1"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670193376186	Marionette	INFO	Marionette enabled
+1670193376192	Marionette	INFO	Listening on port 35491
+WebDriver BiDi listening on ws://127.0.0.1:58397
+1670193376389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehwIoB1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58397/devtools/browser/afbf908d-b8be-41b6-8e35-dfd9d83ac0dc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193386673	Marionette	INFO	Stopped listening on port 35491
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193400005	geckodriver	INFO	Listening on 127.0.0.1:58063
+1670193400012	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36755" "-no-remote" "-profile" "/tmp/rust_mozprofileGUY2t3"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670193401209	Marionette	INFO	Marionette enabled
+1670193401215	Marionette	INFO	Listening on port 35979
+WebDriver BiDi listening on ws://127.0.0.1:36755
+1670193401438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGUY2t3/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36755/devtools/browser/de30a87e-3083-4d60-a82f-71403eaa233d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193412075	Marionette	INFO	Stopped listening on port 35979
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193587310	geckodriver	INFO	Listening on 127.0.0.1:59975
+1670193587320	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39939" "-no-remote" "-profile" "/tmp/rust_mozprofileVGDlVV"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670193588878	Marionette	INFO	Marionette enabled
+1670193588886	Marionette	INFO	Listening on port 34085
+WebDriver BiDi listening on ws://127.0.0.1:39939
+1670193589177	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVGDlVV/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39939/devtools/browser/2c7b71b4-9dd5-48ce-bb99-a6870f462cb5
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193601239	Marionette	INFO	Stopped listening on port 34085
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193698252	geckodriver	INFO	Listening on 127.0.0.1:39547
+1670193698261	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46275" "-no-remote" "-profile" "/tmp/rust_mozprofileadD7Zl"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670193699733	Marionette	INFO	Marionette enabled
+1670193699742	Marionette	INFO	Listening on port 45797
+WebDriver BiDi listening on ws://127.0.0.1:46275
+1670193700029	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileadD7Zl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46275/devtools/browser/d8f27744-ff5a-4262-bf9b-f0a57a1b6435
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193712162	Marionette	INFO	Stopped listening on port 45797
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193921824	geckodriver	INFO	Listening on 127.0.0.1:35793
+1670193921834	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46191" "-no-remote" "-profile" "/tmp/rust_mozprofile1jAhXS"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670193923433	Marionette	INFO	Marionette enabled
+1670193923443	Marionette	INFO	Listening on port 45855
+WebDriver BiDi listening on ws://127.0.0.1:46191
+1670193923717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1jAhXS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46191/devtools/browser/d46ba54a-0870-4beb-9dfe-17fe7646b51c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193935403	Marionette	INFO	Stopped listening on port 45855
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193958048	geckodriver	INFO	Listening on 127.0.0.1:36051
+1670193958057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45569" "-no-remote" "-profile" "/tmp/rust_mozprofilevgBMPw"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670193959749	Marionette	INFO	Marionette enabled
+1670193959757	Marionette	INFO	Listening on port 35521
+WebDriver BiDi listening on ws://127.0.0.1:45569
+1670193960020	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevgBMPw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45569/devtools/browser/f0ccf2b4-a9bb-4074-891f-6ec3c8ae387a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670193971844	Marionette	INFO	Stopped listening on port 35521
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194039782	geckodriver	INFO	Listening on 127.0.0.1:37267
+1670194039791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50271" "-no-remote" "-profile" "/tmp/rust_mozprofile2Eb8fe"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194041394	Marionette	INFO	Marionette enabled
+1670194041405	Marionette	INFO	Listening on port 39697
+WebDriver BiDi listening on ws://127.0.0.1:50271
+1670194041716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2Eb8fe/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50271/devtools/browser/81274a5e-e8d3-4834-baab-ca3f08cfcc3c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194103966	geckodriver	INFO	Listening on 127.0.0.1:48753
+1670194103978	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44937" "-no-remote" "-profile" "/tmp/rust_mozprofilePMxNK0"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194105730	Marionette	INFO	Marionette enabled
+1670194105746	Marionette	INFO	Listening on port 43639
+WebDriver BiDi listening on ws://127.0.0.1:44937
+1670194106106	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePMxNK0/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44937/devtools/browser/5dc3154f-c2c5-428d-8ba3-282ab7e5684b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194119335	geckodriver	INFO	Listening on 127.0.0.1:43047
+1670194119820	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "49817" "-no-remote" "-profile" "/tmp/rust_mozprofileTqlWdw"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194122000	Marionette	INFO	Marionette enabled
+1670194122013	Marionette	INFO	Listening on port 38243
+WebDriver BiDi listening on ws://127.0.0.1:49817
+1670194122385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTqlWdw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49817/devtools/browser/1086ff76-1224-424f-9951-25de3ffd9839
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194134426	geckodriver	INFO	Listening on 127.0.0.1:39951
+1670194134933	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48463" "-no-remote" "-profile" "/tmp/rust_mozprofileDrdodP"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194137136	Marionette	INFO	Marionette enabled
+1670194137149	Marionette	INFO	Listening on port 41199
+WebDriver BiDi listening on ws://127.0.0.1:48463
+1670194137545	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDrdodP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48463/devtools/browser/db83f677-52f0-44e6-800d-0064ca86789e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194154282	geckodriver	INFO	Listening on 127.0.0.1:34583
+1670194154791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37031" "-no-remote" "-profile" "/tmp/rust_mozprofileAbKPDa"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194157442	Marionette	INFO	Marionette enabled
+1670194157465	Marionette	INFO	Listening on port 41075
+WebDriver BiDi listening on ws://127.0.0.1:37031
+1670194157923	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAbKPDa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37031/devtools/browser/239bb942-2a9c-4bae-95de-d2633c9b189f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194176149	geckodriver	INFO	Listening on 127.0.0.1:36003
+1670194176655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60073" "-no-remote" "-profile" "/tmp/rust_mozprofilefTGtIK"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194178429	Marionette	INFO	Marionette enabled
+1670194178439	Marionette	INFO	Listening on port 46859
+WebDriver BiDi listening on ws://127.0.0.1:60073
+1670194178809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefTGtIK/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194185092	Marionette	INFO	Stopped listening on port 39697
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670194245397	geckodriver	INFO	Listening on 127.0.0.1:48259
+1670194245410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60819" "-no-remote" "-profile" "/tmp/rust_mozprofileAxhT49"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194247307	Marionette	INFO	Marionette enabled
+1670194247318	Marionette	INFO	Listening on port 44591
+WebDriver BiDi listening on ws://127.0.0.1:60819
+1670194247607	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAxhT49/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60819/devtools/browser/c345cd3b-3156-4506-aa6f-647369b760c0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194259144	geckodriver	INFO	Listening on 127.0.0.1:49269
+1670194259650	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37987" "-no-remote" "-profile" "/tmp/rust_mozprofileTXKzSY"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194261049	Marionette	INFO	Marionette enabled
+1670194261058	Marionette	INFO	Listening on port 43715
+WebDriver BiDi listening on ws://127.0.0.1:37987
+1670194261318	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTXKzSY/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+DevTools listening on ws://127.0.0.1:37987/devtools/browser/912013fe-8319-45c1-a1ee-ff37dafe1f28
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670194436388	geckodriver	INFO	Listening on 127.0.0.1:33289
+1670194436397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33361" "-no-remote" "-profile" "/tmp/rust_mozprofileRfovFE"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1670194437115	Marionette	INFO	Marionette enabled
+1670194437122	Marionette	INFO	Listening on port 42045
+WebDriver BiDi listening on ws://127.0.0.1:33361
+1670194437294	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRfovFE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33361/devtools/browser/22f6d1ad-9aaa-4333-bc1f-75b6e9898792
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194471048	geckodriver	INFO	Listening on 127.0.0.1:59791
+1670194471057	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59783" "-no-remote" "-profile" "/tmp/rust_mozprofileHGbVtd"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1670194471852	Marionette	INFO	Marionette enabled
+1670194471862	Marionette	INFO	Listening on port 46533
+WebDriver BiDi listening on ws://127.0.0.1:59783
+1670194472061	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHGbVtd/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59783/devtools/browser/c89c1dbd-735a-435b-80d2-043d9cafd235
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194546540	geckodriver	INFO	Listening on 127.0.0.1:47947
+1670194546551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41851" "-no-remote" "-profile" "/tmp/rust_mozprofileLarz8a"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1670194547489	Marionette	INFO	Marionette enabled
+1670194547499	Marionette	INFO	Listening on port 35961
+WebDriver BiDi listening on ws://127.0.0.1:41851
+1670194547740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLarz8a/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41851/devtools/browser/c94ab568-3410-4700-9344-6b06a5a1e0a2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194581266	geckodriver	INFO	Listening on 127.0.0.1:60077
+1670194581278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54199" "-no-remote" "-profile" "/tmp/rust_mozprofileSo7exT"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1670194582244	Marionette	INFO	Marionette enabled
+1670194582254	Marionette	INFO	Listening on port 38153
+WebDriver BiDi listening on ws://127.0.0.1:54199
+1670194582510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSo7exT/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54199/devtools/browser/4711ff22-4c06-454d-98f5-92a104778efb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194620630	geckodriver	INFO	Listening on 127.0.0.1:43129
+1670194620643	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42933" "-no-remote" "-profile" "/tmp/rust_mozprofileCEpChn"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194622663	Marionette	INFO	Marionette enabled
+1670194622676	Marionette	INFO	Listening on port 45771
+WebDriver BiDi listening on ws://127.0.0.1:42933
+1670194623060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCEpChn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42933/devtools/browser/2c22e2ae-90a4-4252-ac42-a26aaf2a0337
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194638026	geckodriver	INFO	Listening on 127.0.0.1:58751
+1670194638533	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48149" "-no-remote" "-profile" "/tmp/rust_mozprofile3tq5PW"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194640880	Marionette	INFO	Marionette enabled
+1670194640898	Marionette	INFO	Listening on port 41927
+WebDriver BiDi listening on ws://127.0.0.1:48149
+1670194641700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3tq5PW/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+DevTools listening on ws://127.0.0.1:48149/devtools/browser/984702d1-1be1-446c-8d87-b9578a9b692f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194658959	geckodriver	INFO	Listening on 127.0.0.1:51361
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194659464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37225" "-no-remote" "-profile" "/tmp/rust_mozprofileueQCZg"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670194694179	geckodriver	INFO	Listening on 127.0.0.1:55225
+1670194694191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40075" "-no-remote" "-profile" "/tmp/rust_mozprofiledVaZKo"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194696154	Marionette	INFO	Marionette enabled
+1670194696167	Marionette	INFO	Listening on port 46867
+WebDriver BiDi listening on ws://127.0.0.1:40075
+1670194696555	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledVaZKo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40075/devtools/browser/8d9666ba-7a91-4baf-9301-787bf9ee8e9f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194713060	Marionette	INFO	Stopped listening on port 46867
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194714838	geckodriver	INFO	Listening on 127.0.0.1:48161
+1670194715345	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47813" "-no-remote" "-profile" "/tmp/rust_mozprofilegzD75c"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194718291	Marionette	INFO	Marionette enabled
+1670194718308	Marionette	INFO	Listening on port 36453
+WebDriver BiDi listening on ws://127.0.0.1:47813
+1670194718739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegzD75c/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47813/devtools/browser/4ad5ffaa-28f8-44e2-9793-cd7c143e8cb7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194734857	Marionette	INFO	Stopped listening on port 36453
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194736346	geckodriver	INFO	Listening on 127.0.0.1:42155
+1670194736856	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48295" "-no-remote" "-profile" "/tmp/rust_mozprofileFGL1nk"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670194739470	Marionette	INFO	Marionette enabled
+1670194739482	Marionette	INFO	Listening on port 35333
+WebDriver BiDi listening on ws://127.0.0.1:48295
+1670194739820	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFGL1nk/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48295/devtools/browser/4f05b1cf-edb0-46bb-bf06-ba2b5a58f7aa
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670194765490	Marionette	INFO	Stopped listening on port 35333
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670195108251	geckodriver	INFO	Listening on 127.0.0.1:51471
+1670195108263	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38733" "-no-remote" "-profile" "/tmp/rust_mozprofilelsamb4"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195110484	Marionette	INFO	Marionette enabled
+1670195110493	Marionette	INFO	Listening on port 41981
+WebDriver BiDi listening on ws://127.0.0.1:38733
+1670195111028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelsamb4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38733/devtools/browser/82462e1e-bcf6-4dd3-96f6-dde91d81f695
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195126134	Marionette	INFO	Stopped listening on port 41981
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195127870	geckodriver	INFO	Listening on 127.0.0.1:41951
+1670195128377	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47359" "-no-remote" "-profile" "/tmp/rust_mozprofile7cC7xi"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195130495	Marionette	INFO	Marionette enabled
+1670195130509	Marionette	INFO	Listening on port 43171
+WebDriver BiDi listening on ws://127.0.0.1:47359
+1670195130902	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7cC7xi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47359/devtools/browser/a4769d0d-87d6-48a5-a5c3-505de116956f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670195273032	geckodriver	INFO	Listening on 127.0.0.1:58319
+1670195273044	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43619" "-no-remote" "-profile" "/tmp/rust_mozprofileSkwfCF"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195274973	Marionette	INFO	Marionette enabled
+1670195274984	Marionette	INFO	Listening on port 41781
+WebDriver BiDi listening on ws://127.0.0.1:43619
+1670195275368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSkwfCF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43619/devtools/browser/7629b5ee-432f-4b57-9168-f7cb1acf82b2
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195291823	Marionette	INFO	Stopped listening on port 41781
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195293262	geckodriver	INFO	Listening on 127.0.0.1:35725
+1670195293768	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60211" "-no-remote" "-profile" "/tmp/rust_mozprofileLczstl"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195295638	Marionette	INFO	Marionette enabled
+1670195295650	Marionette	INFO	Listening on port 42323
+WebDriver BiDi listening on ws://127.0.0.1:60211
+1670195296012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLczstl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60211/devtools/browser/96d22348-58f3-401e-a7b6-58e4e9167d75
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1670195382707	geckodriver	INFO	Listening on 127.0.0.1:50527
+1670195382719	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46081" "-no-remote" "-profile" "/tmp/rust_mozprofileT4cog8"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195384593	Marionette	INFO	Marionette enabled
+1670195384603	Marionette	INFO	Listening on port 34527
+WebDriver BiDi listening on ws://127.0.0.1:46081
+1670195384917	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT4cog8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46081/devtools/browser/83cd04b0-c049-4683-af7e-256435dbd0fe
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195400096	Marionette	INFO	Stopped listening on port 34527
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195401684	geckodriver	INFO	Listening on 127.0.0.1:38863
+1670195402191	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45295" "-no-remote" "-profile" "/tmp/rust_mozprofileewb9on"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195404195	Marionette	INFO	Marionette enabled
+1670195404208	Marionette	INFO	Listening on port 34539
+WebDriver BiDi listening on ws://127.0.0.1:45295
+1670195404549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileewb9on/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45295/devtools/browser/f9e2f65c-30b9-41a0-80d4-875998e98261
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670195460435	geckodriver	INFO	Listening on 127.0.0.1:42081
+1670195460447	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58399" "-no-remote" "-profile" "/tmp/rust_mozprofileTdOc1M"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195463484	Marionette	INFO	Marionette enabled
+1670195463507	Marionette	INFO	Listening on port 46587
+WebDriver BiDi listening on ws://127.0.0.1:58399
+1670195464326	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTdOc1M/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58399/devtools/browser/0a9bd881-c847-4240-81b5-27991e850ddc
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670195486012	geckodriver	INFO	Listening on 127.0.0.1:35853
+1670195486023	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58025" "-no-remote" "-profile" "/tmp/rust_mozprofilegw4197"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195487991	Marionette	INFO	Marionette enabled
+1670195488003	Marionette	INFO	Listening on port 44103
+WebDriver BiDi listening on ws://127.0.0.1:58025
+1670195488335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegw4197/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58025/devtools/browser/10d6f2fc-e623-41f6-ad8a-1e4cbca2d99c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195581435	geckodriver	INFO	Listening on 127.0.0.1:48975
+1670195581451	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44747" "-no-remote" "-profile" "/tmp/rust_mozprofilehmOWMU"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195583595	Marionette	INFO	Marionette enabled
+1670195583609	Marionette	INFO	Listening on port 39181
+WebDriver BiDi listening on ws://127.0.0.1:44747
+1670195584008	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehmOWMU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44747/devtools/browser/8bc8f84e-715d-4fbf-8683-8f0bf13b51b3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195599832	Marionette	INFO	Stopped listening on port 39181
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195601564	geckodriver	INFO	Listening on 127.0.0.1:60149
+1670195602072	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48657" "-no-remote" "-profile" "/tmp/rust_mozprofileufmbwP"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195604900	Marionette	INFO	Marionette enabled
+1670195604914	Marionette	INFO	Listening on port 40481
+1670195614801	geckodriver	INFO	Listening on 127.0.0.1:60227
+1670195614831	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55333" "-no-remote" "-profile" "/tmp/rust_mozprofile9oFiL1"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195617443	Marionette	INFO	Marionette enabled
+1670195617469	Marionette	INFO	Listening on port 34895
+WebDriver BiDi listening on ws://127.0.0.1:55333
+1670195618203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9oFiL1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55333/devtools/browser/99bb9506-a46b-4793-b897-0ee7f28a7ce9
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195633820	Marionette	INFO	Stopped listening on port 34895
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195635540	geckodriver	INFO	Listening on 127.0.0.1:43165
+1670195636046	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60411" "-no-remote" "-profile" "/tmp/rust_mozprofileDXM7AH"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195638420	Marionette	INFO	Marionette enabled
+1670195638452	Marionette	INFO	Listening on port 32901
+WebDriver BiDi listening on ws://127.0.0.1:60411
+1670195639236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+1670195653634	geckodriver	INFO	Listening on 127.0.0.1:43561
+1670195653645	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54781" "-no-remote" "-profile" "/tmp/rust_mozprofileWkjVLB"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195655571	Marionette	INFO	Marionette enabled
+1670195655582	Marionette	INFO	Listening on port 41861
+WebDriver BiDi listening on ws://127.0.0.1:54781
+1670195655970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWkjVLB/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54781/devtools/browser/7e8b7a88-d64f-44d0-9593-ec4cbd445ff8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195671200	Marionette	INFO	Stopped listening on port 41861
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195672828	geckodriver	INFO	Listening on 127.0.0.1:34401
+1670195673338	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40241" "-no-remote" "-profile" "/tmp/rust_mozprofile1TEeEA"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195675456	Marionette	INFO	Marionette enabled
+1670195675469	Marionette	INFO	Listening on port 37863
+WebDriver BiDi listening on ws://127.0.0.1:40241
+1670195675837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1TEeEA/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40241/devtools/browser/489e4831-6502-40fb-a7fa-a32434c9c71b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670195690886	geckodriver	INFO	Listening on 127.0.0.1:58355
+1670195690897	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59131" "-no-remote" "-profile" "/tmp/rust_mozprofileUqX815"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195693049	Marionette	INFO	Marionette enabled
+1670195693064	Marionette	INFO	Listening on port 40043
+WebDriver BiDi listening on ws://127.0.0.1:59131
+1670195693477	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUqX815/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59131/devtools/browser/99b50392-9ce7-4476-bff3-f7f13f80011c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195708555	Marionette	INFO	Stopped listening on port 40043
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195710283	geckodriver	INFO	Listening on 127.0.0.1:50311
+1670195710790	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57747" "-no-remote" "-profile" "/tmp/rust_mozprofilezej4Xg"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195713555	Marionette	INFO	Marionette enabled
+1670195713578	Marionette	INFO	Listening on port 45011
+WebDriver BiDi listening on ws://127.0.0.1:57747
+1670195714006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezej4Xg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57747/devtools/browser/7f123fa1-70f8-4c0d-9b36-e7b6fc78ba8c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670195768031	geckodriver	INFO	Listening on 127.0.0.1:52599
+1670195768045	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36925" "-no-remote" "-profile" "/tmp/rust_mozprofile0uHCJS"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195770524	Marionette	INFO	Marionette enabled
+1670195770544	Marionette	INFO	Listening on port 41735
+WebDriver BiDi listening on ws://127.0.0.1:36925
+1670195771010	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0uHCJS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36925/devtools/browser/92a163ac-4272-41ad-85e9-b0b1e205b417
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195787412	Marionette	INFO	Stopped listening on port 41735
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195789070	geckodriver	INFO	Listening on 127.0.0.1:60175
+1670195789575	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35011" "-no-remote" "-profile" "/tmp/rust_mozprofileO5lXMg"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195792265	Marionette	INFO	Marionette enabled
+1670195792278	Marionette	INFO	Listening on port 38097
+WebDriver BiDi listening on ws://127.0.0.1:35011
+1670195792664	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO5lXMg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35011/devtools/browser/dca2b30d-c6af-4725-ac0d-cdb2d3df2072
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670195823648	geckodriver	INFO	Listening on 127.0.0.1:58841
+1670195823665	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54521" "-no-remote" "-profile" "/tmp/rust_mozprofileAaMnMK"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670195825865	Marionette	INFO	Marionette enabled
+1670195825881	Marionette	INFO	Listening on port 40477
+WebDriver BiDi listening on ws://127.0.0.1:54521
+1670195826285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAaMnMK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54521/devtools/browser/9eb0eb7d-a835-4ae0-a337-cf21cc390cbd
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670195902318	Marionette	INFO	Stopped listening on port 44103
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670196030622	geckodriver	INFO	Listening on 127.0.0.1:52487
+1670196030632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37417" "-no-remote" "-profile" "/tmp/rust_mozprofileNnow7u"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196032838	Marionette	INFO	Marionette enabled
+1670196032850	Marionette	INFO	Listening on port 32953
+WebDriver BiDi listening on ws://127.0.0.1:37417
+1670196033243	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNnow7u/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37417/devtools/browser/74d21f58-cb7d-4da3-8682-4c014ab67c7d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196049875	Marionette	INFO	Stopped listening on port 32953
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196051652	geckodriver	INFO	Listening on 127.0.0.1:47421
+1670196052158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48593" "-no-remote" "-profile" "/tmp/rust_mozprofilevby9y8"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196054735	Marionette	INFO	Marionette enabled
+1670196054752	Marionette	INFO	Listening on port 38865
+WebDriver BiDi listening on ws://127.0.0.1:48593
+1670196055194	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilevby9y8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48593/devtools/browser/b4f695ce-23d7-463f-b3a6-4c58ba2fcef6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670196068330	geckodriver	INFO	Listening on 127.0.0.1:60859
+1670196068343	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34341" "-no-remote" "-profile" "/tmp/rust_mozprofiletRTTIv"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196070645	Marionette	INFO	Marionette enabled
+1670196070658	Marionette	INFO	Listening on port 34091
+WebDriver BiDi listening on ws://127.0.0.1:34341
+1670196071046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletRTTIv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34341/devtools/browser/5e4081bc-dcae-414a-9c23-9644946fa541
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196086706	Marionette	INFO	Stopped listening on port 34091
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196088434	geckodriver	INFO	Listening on 127.0.0.1:41767
+1670196088941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48439" "-no-remote" "-profile" "/tmp/rust_mozprofilefw7py6"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196091309	Marionette	INFO	Marionette enabled
+1670196091325	Marionette	INFO	Listening on port 34247
+WebDriver BiDi listening on ws://127.0.0.1:48439
+1670196091722	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefw7py6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48439/devtools/browser/b21aacce-e22f-47bc-8bce-ffbf9dd504bf
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670196223940	geckodriver	INFO	Listening on 127.0.0.1:50389
+1670196223952	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36895" "-no-remote" "-profile" "/tmp/rust_mozprofileCZoSFW"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196225946	Marionette	INFO	Marionette enabled
+1670196225958	Marionette	INFO	Listening on port 33009
+WebDriver BiDi listening on ws://127.0.0.1:36895
+1670196226324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileCZoSFW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36895/devtools/browser/8dd8d7f0-1b38-4097-ae14-c8ea25f64e72
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196279427	geckodriver	INFO	Listening on 127.0.0.1:51253
+1670196279440	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58313" "-no-remote" "-profile" "/tmp/rust_mozprofile9O6MGa"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196281752	Marionette	INFO	Marionette enabled
+1670196281766	Marionette	INFO	Listening on port 46501
+WebDriver BiDi listening on ws://127.0.0.1:58313
+1670196282186	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9O6MGa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58313/devtools/browser/e1ae04a4-f19d-4bd5-9256-e8a002740dd4
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196297950	Marionette	INFO	Stopped listening on port 46501
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196299660	geckodriver	INFO	Listening on 127.0.0.1:39907
+1670196300167	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36571" "-no-remote" "-profile" "/tmp/rust_mozprofile83kYsH"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196302414	Marionette	INFO	Marionette enabled
+1670196302435	Marionette	INFO	Listening on port 39547
+WebDriver BiDi listening on ws://127.0.0.1:36571
+1670196302858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile83kYsH/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36571/devtools/browser/abbe6333-098b-4548-9277-c67123352a5e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196318669	Marionette	INFO	Stopped listening on port 39547
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196320630	geckodriver	INFO	Listening on 127.0.0.1:41691
+1670196321139	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39251" "-no-remote" "-profile" "/tmp/rust_mozprofileU9rP81"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196323686	Marionette	INFO	Marionette enabled
+1670196323699	Marionette	INFO	Listening on port 46601
+WebDriver BiDi listening on ws://127.0.0.1:39251
+1670196324160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileU9rP81/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39251/devtools/browser/5bc6899c-c72d-4baf-9f14-86f6a23fe30f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196341607	Marionette	INFO	Stopped listening on port 46601
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196343194	geckodriver	INFO	Listening on 127.0.0.1:43611
+1670196343701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37543" "-no-remote" "-profile" "/tmp/rust_mozprofileOPKuWg"
+1670196363362	geckodriver	INFO	Listening on 127.0.0.1:33935
+1670196363376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42259" "-no-remote" "-profile" "/tmp/rust_mozprofileVK4Bia"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196365505	Marionette	INFO	Marionette enabled
+1670196365522	Marionette	INFO	Listening on port 34843
+WebDriver BiDi listening on ws://127.0.0.1:42259
+1670196365920	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVK4Bia/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42259/devtools/browser/d9c44738-0ffd-434e-9e25-4c2d3f82854a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196381002	Marionette	INFO	Stopped listening on port 34843
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196382706	geckodriver	INFO	Listening on 127.0.0.1:57999
+1670196383213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58733" "-no-remote" "-profile" "/tmp/rust_mozprofile7ir8fN"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196385274	Marionette	INFO	Marionette enabled
+1670196385287	Marionette	INFO	Listening on port 40935
+WebDriver BiDi listening on ws://127.0.0.1:58733
+1670196385683	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7ir8fN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58733/devtools/browser/76f029ab-1244-437d-a970-4d2b87691818
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670196443750	geckodriver	INFO	Listening on 127.0.0.1:44467
+1670196443762	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47681" "-no-remote" "-profile" "/tmp/rust_mozprofilebmvKOw"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196445864	Marionette	INFO	Marionette enabled
+1670196445879	Marionette	INFO	Listening on port 33655
+WebDriver BiDi listening on ws://127.0.0.1:47681
+1670196446284	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebmvKOw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47681/devtools/browser/ea2c6544-f22a-4cb2-a2d1-ff59861c4728
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196461943	Marionette	INFO	Stopped listening on port 33655
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196463634	geckodriver	INFO	Listening on 127.0.0.1:57207
+1670196464141	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47461" "-no-remote" "-profile" "/tmp/rust_mozprofileP0g09Q"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196466333	Marionette	INFO	Marionette enabled
+1670196466347	Marionette	INFO	Listening on port 40151
+WebDriver BiDi listening on ws://127.0.0.1:47461
+1670196466751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileP0g09Q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47461/devtools/browser/03ef967f-a636-4ae1-88ad-bd9cd8c9d89d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670196544616	geckodriver	INFO	Listening on 127.0.0.1:46309
+1670196544628	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38617" "-no-remote" "-profile" "/tmp/rust_mozprofiledaQkOG"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196546782	Marionette	INFO	Marionette enabled
+1670196546797	Marionette	INFO	Listening on port 40551
+WebDriver BiDi listening on ws://127.0.0.1:38617
+1670196547203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledaQkOG/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38617/devtools/browser/5c92fef4-1b52-459e-b566-20b1a04ac62d
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196563229	Marionette	INFO	Stopped listening on port 40551
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196564857	geckodriver	INFO	Listening on 127.0.0.1:40059
+1670196565365	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46757" "-no-remote" "-profile" "/tmp/rust_mozprofile8bWDCf"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196567829	Marionette	INFO	Marionette enabled
+1670196567846	Marionette	INFO	Listening on port 36405
+WebDriver BiDi listening on ws://127.0.0.1:46757
+1670196568255	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1670196638585	geckodriver	INFO	Listening on 127.0.0.1:43777
+1670196638596	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48921" "-no-remote" "-profile" "/tmp/rust_mozprofileq1fBgD"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196640447	Marionette	INFO	Marionette enabled
+1670196640457	Marionette	INFO	Listening on port 35981
+WebDriver BiDi listening on ws://127.0.0.1:48921
+1670196640791	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileq1fBgD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:48921/devtools/browser/c4b2efb1-72ea-4ce6-b84a-6709a375a013
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196655741	Marionette	INFO	Stopped listening on port 35981
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196657569	geckodriver	INFO	Listening on 127.0.0.1:57811
+1670196658076	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38539" "-no-remote" "-profile" "/tmp/rust_mozprofileQTQYqr"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196660262	Marionette	INFO	Marionette enabled
+1670196660276	Marionette	INFO	Listening on port 37957
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196666689	Marionette	INFO	Stopped listening on port 33009
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670196700151	geckodriver	INFO	Listening on 127.0.0.1:60787
+1670196700162	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35163" "-no-remote" "-profile" "/tmp/rust_mozprofilexjSEHc"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196702029	Marionette	INFO	Marionette enabled
+1670196702041	Marionette	INFO	Listening on port 33897
+WebDriver BiDi listening on ws://127.0.0.1:35163
+1670196702378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilexjSEHc/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35163/devtools/browser/a0659643-064b-4e72-9cce-574a47455f14
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196717287	Marionette	INFO	Stopped listening on port 33897
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196718997	geckodriver	INFO	Listening on 127.0.0.1:54059
+1670196719505	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34447" "-no-remote" "-profile" "/tmp/rust_mozprofile2SBw3O"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196721597	Marionette	INFO	Marionette enabled
+1670196721610	Marionette	INFO	Listening on port 44359
+WebDriver BiDi listening on ws://127.0.0.1:34447
+1670196721962	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2SBw3O/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34447/devtools/browser/a41b47e2-9328-4709-bd29-82f87efa184e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670196774342	geckodriver	INFO	Listening on 127.0.0.1:53887
+1670196774354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43181" "-no-remote" "-profile" "/tmp/rust_mozprofile66DT2q"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196776418	Marionette	INFO	Marionette enabled
+1670196776431	Marionette	INFO	Listening on port 46339
+WebDriver BiDi listening on ws://127.0.0.1:43181
+1670196776818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile66DT2q/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43181/devtools/browser/bfdc16a7-b34f-4221-9315-0959fec5adf7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196791364	Marionette	INFO	Stopped listening on port 46339
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196792979	geckodriver	INFO	Listening on 127.0.0.1:53941
+1670196793486	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35365" "-no-remote" "-profile" "/tmp/rust_mozprofilefrOTHj"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196795486	Marionette	INFO	Marionette enabled
+1670196795498	Marionette	INFO	Listening on port 37831
+WebDriver BiDi listening on ws://127.0.0.1:35365
+1670196795843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefrOTHj/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35365/devtools/browser/36fc060c-20c0-4473-aa68-ff10b76dccce
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670196842907	geckodriver	INFO	Listening on 127.0.0.1:53331
+1670196842920	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "46359" "-no-remote" "-profile" "/tmp/rust_mozprofilem7ryFP"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196844923	Marionette	INFO	Marionette enabled
+1670196844937	Marionette	INFO	Listening on port 38095
+WebDriver BiDi listening on ws://127.0.0.1:46359
+1670196845325	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem7ryFP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46359/devtools/browser/dfe8cf74-f6f3-4bfd-8ee6-4aa1deb0f101
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196978870	geckodriver	INFO	Listening on 127.0.0.1:57205
+1670196978883	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "44787" "-no-remote" "-profile" "/tmp/rust_mozprofileT4WFQX"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670196980987	Marionette	INFO	Marionette enabled
+1670196981000	Marionette	INFO	Listening on port 39995
+WebDriver BiDi listening on ws://127.0.0.1:44787
+1670196981364	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileT4WFQX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44787/devtools/browser/5d734d4c-4f56-4cad-9917-afdd19db011e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196996342	Marionette	INFO	Stopped listening on port 39995
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670196998024	geckodriver	INFO	Listening on 127.0.0.1:51701
+1670196998531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39677" "-no-remote" "-profile" "/tmp/rust_mozprofilelBRW6V"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197065156	geckodriver	INFO	Listening on 127.0.0.1:41539
+1670197065170	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36631" "-no-remote" "-profile" "/tmp/rust_mozprofileGxxaBN"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197067182	Marionette	INFO	Marionette enabled
+1670197067194	Marionette	INFO	Listening on port 43757
+WebDriver BiDi listening on ws://127.0.0.1:36631
+1670197067591	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGxxaBN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36631/devtools/browser/3dadd125-a79f-4d88-acd7-a35db89562ba
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197083837	Marionette	INFO	Stopped listening on port 43757
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197085590	geckodriver	INFO	Listening on 127.0.0.1:41243
+1670197086096	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33485" "-no-remote" "-profile" "/tmp/rust_mozprofilemxkUsv"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197088794	Marionette	INFO	Marionette enabled
+1670197088809	Marionette	INFO	Listening on port 37109
+WebDriver BiDi listening on ws://127.0.0.1:33485
+1670197089234	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemxkUsv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33485/devtools/browser/9baedb64-f149-40a5-bd9c-9498d4d3e7d6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670197124207	geckodriver	INFO	Listening on 127.0.0.1:41979
+1670197124220	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36123" "-no-remote" "-profile" "/tmp/rust_mozprofileFa0rNM"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197126713	Marionette	INFO	Marionette enabled
+1670197126730	Marionette	INFO	Listening on port 35267
+WebDriver BiDi listening on ws://127.0.0.1:36123
+1670197127169	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFa0rNM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36123/devtools/browser/b2c470ce-2f3c-41bf-bfc6-1c4bb49d0ccb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197143085	Marionette	INFO	Stopped listening on port 35267
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197144701	geckodriver	INFO	Listening on 127.0.0.1:54631
+1670197145208	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33505" "-no-remote" "-profile" "/tmp/rust_mozprofileiEUDwK"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197147671	Marionette	INFO	Marionette enabled
+1670197147685	Marionette	INFO	Listening on port 33427
+WebDriver BiDi listening on ws://127.0.0.1:33505
+1670197148101	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiEUDwK/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33505/devtools/browser/052d13aa-bf96-40db-881b-773f7b9de5c7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197163924	Marionette	INFO	Stopped listening on port 33427
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197165647	geckodriver	INFO	Listening on 127.0.0.1:45341
+1670197166156	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59785" "-no-remote" "-profile" "/tmp/rust_mozprofileN0aCLn"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197168596	Marionette	INFO	Marionette enabled
+1670197168610	Marionette	INFO	Listening on port 39475
+WebDriver BiDi listening on ws://127.0.0.1:59785
+1670197169017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileN0aCLn/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59785/devtools/browser/a9b6267d-2323-497a-a08d-0606bf96d0ef
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197183187	Marionette	INFO	Stopped listening on port 38095
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670197572670	geckodriver	INFO	Listening on 127.0.0.1:34937
+1670197572691	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33793" "-no-remote" "-profile" "/tmp/rust_mozprofile6QNwu1"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197574766	Marionette	INFO	Marionette enabled
+1670197574777	Marionette	INFO	Listening on port 40101
+WebDriver BiDi listening on ws://127.0.0.1:33793
+1670197575124	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6QNwu1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33793/devtools/browser/f86f7c23-cf6e-4776-8a5c-1e37a7fcbcf7
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197590397	Marionette	INFO	Stopped listening on port 40101
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197592010	geckodriver	INFO	Listening on 127.0.0.1:44937
+1670197592516	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56921" "-no-remote" "-profile" "/tmp/rust_mozprofilet2VkOc"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197595241	Marionette	INFO	Marionette enabled
+1670197595262	Marionette	INFO	Listening on port 45089
+WebDriver BiDi listening on ws://127.0.0.1:56921
+1670197595687	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilet2VkOc/search.json.mozlz4", (void 0)))
+Exiting due to channel error.
+Exiting due to channel error.
+1670197631016	geckodriver	INFO	Listening on 127.0.0.1:40467
+1670197631026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40953" "-no-remote" "-profile" "/tmp/rust_mozprofilem4FKOu"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197633006	Marionette	INFO	Marionette enabled
+1670197633019	Marionette	INFO	Listening on port 37597
+WebDriver BiDi listening on ws://127.0.0.1:40953
+1670197633375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem4FKOu/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40953/devtools/browser/8e133e1a-fd2a-419b-9390-c824a3f866f0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197648527	Marionette	INFO	Stopped listening on port 37597
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197650248	geckodriver	INFO	Listening on 127.0.0.1:54665
+1670197650751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35499" "-no-remote" "-profile" "/tmp/rust_mozprofile7bGoN4"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197652970	Marionette	INFO	Marionette enabled
+1670197652983	Marionette	INFO	Listening on port 36903
+WebDriver BiDi listening on ws://127.0.0.1:35499
+1670197653375	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7bGoN4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35499/devtools/browser/2b5cb35f-dc67-4a95-8d5d-6d4345323855
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197668341	Marionette	INFO	Stopped listening on port 36903
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197669920	geckodriver	INFO	Listening on 127.0.0.1:36047
+1670197670429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58323" "-no-remote" "-profile" "/tmp/rust_mozprofileBjZFoN"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197672687	Marionette	INFO	Marionette enabled
+1670197672702	Marionette	INFO	Listening on port 34899
+WebDriver BiDi listening on ws://127.0.0.1:58323
+1670197673068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBjZFoN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58323/devtools/browser/73966fe4-22d8-4634-876a-f27878246000
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1670197699316	geckodriver	INFO	Listening on 127.0.0.1:34199
+1670197699323	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53355" "-no-remote" "-profile" "/tmp/rust_mozprofilerruig2"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1670197700700	Marionette	INFO	Marionette enabled
+1670197700708	Marionette	INFO	Listening on port 46549
+WebDriver BiDi listening on ws://127.0.0.1:53355
+1670197700960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerruig2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53355/devtools/browser/c08a8443-e530-44c6-b710-3bf122bca6b6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1670197712944	Marionette	INFO	Stopped listening on port 46549
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
