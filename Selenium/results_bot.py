@@ -4,42 +4,80 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
-from time import sleep
+import concurrent.futures
 import tabula
-from pandas import DataFrame as df
-from roll_numbers import rollNumbers
+import pandas as pd
+from roll_numbers import *
 
-resultsData = []
+resultsData = {}
 
-for rollNumber in rollNumbers:
+
+def find_file_url(rollNumber: int) -> str:
     opts = Options()
     # opts.headless = True
     browser = webdriver.Firefox(options=opts)
     wait = WebDriverWait(browser, 20)
-    browser.get("https://mis.nitrr.ac.in/iitmsoBF2zO1QWoLeV7wV7kw7kcHJeahVjzN4t6MFMeyhUykpKfBA9V+F0/3m6SMOr7hf?enc=2vjcaEnhmvfs4iwSJr18eQaN1iwTCkDZLg4FpnIV12/vTB0HoHDs8kZdmyK5DB9t")
+    browser.get("https://mis.nitrr.ac.in/publishedresult.aspx")
 
     numberBox = browser.find_element(By.ID, "txtRegno")
     numberBox.send_keys(rollNumber)
     numberBox.send_keys(Keys.RETURN)
+    wait.until(EC.presence_of_element_located((By.ID, "lblSRollNo")))
+
+    sessionMenu = wait.until(
+        EC.presence_of_element_located((By.ID, "ddlSession")))
+    Select(sessionMenu).select_by_value('102')
 
     semMenu = wait.until(
         EC.presence_of_element_located((By.ID, "ddlSemester")))
     # semMenu = browser.find_element(By.ID, "ddlSemester")
-    Select(semMenu).select_by_value('4')
+    # wait.until(EC.presence_of_element_located(By.)
+    Select(semMenu).select_by_value('5')
+
     main_window = browser.current_window_handle
 
-    getResult = wait.until(
+    wait.until(
         EC.element_to_be_clickable(browser.find_element(By.ID, "btnCBCSTabulation"))).click()
     for handle in browser.window_handles:
         if handle != main_window:
             browser.switch_to.window(handle)
             wait.until(EC.url_changes("about:blank"))
-            data = [float(ptr.split(":")[1]) for ptr in tabula.read_pdf(
-                browser.current_url, area=(250, 100, 268, 450), pages=1)[0].columns.values.tolist()]
-            data.insert(0, rollNumber)
-            print(data)
-            resultsData.append(data)
-    browser.quit()
+            file_url = browser.current_url
+            browser.quit()
+            return file_url
 
-dataframe = df(resultsData, columns=["Roll Number", "SPI", "CPI"])
-dataframe.to_csv("result.csv")
+
+def scrapePDF(file_url: str, rollNumber: int):
+    df = tabula.read_pdf(file_url,
+                         area=(130, 47, 260, 565), pages=1)[0]
+    subjects = df['Name of Subjects'].to_list()
+    grades = df["Grade Point"].to_list()
+    d = zip(subjects, grades)
+    ptrs = [ptr.split(":")[1] for ptr in tabula.read_pdf(
+        file_url, area=(250, 100, 268, 450), pages=1)[0].columns.values.tolist()]
+    data = {'SPI': ptrs[0], 'CPI': ptrs[1]}
+    for sub, grd in d:
+        data[sub] = grd
+    resultsData[rollNumber] = data
+    print(f'{rollNumber} : {resultsData[rollNumber]}')
+
+
+def fetchResults(rollNumber: int):
+    scrapePDF(file_url=find_file_url(
+        rollNumber=rollNumber), rollNumber=rollNumber)
+
+
+def main():
+    remaining = [x for x in rollNumbers if x not in set(done)]
+    print(remaining)
+    # fetchResults(rollNumber=20117048)
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+        executor.map(fetchResults, remaining)
+
+    df = pd.DataFrame(resultsData).transpose()
+    df.to_csv('results.csv')
+    print(df)
+
+
+if __name__ == '__main__':
+    main()
