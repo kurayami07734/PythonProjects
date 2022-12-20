@@ -4,18 +4,19 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.firefox.options import Options
 from selenium.webdriver.support import expected_conditions as EC
-import concurrent.futures
-import tabula
-import pandas as pd
-from roll_numbers import *
+from concurrent.futures import ThreadPoolExecutor
+from tabula import read_pdf
+from pandas import DataFrame
 
+rollNumbers = [i for i in range(20117001, 20117130)]
+sliders = [i for i in range(20117901, 20117920)]
+rollNumbers.extend(sliders)
 resultsData = {}
 
 
 def find_file_url(rollNumber: int) -> tuple[str, str]:
     opts = Options()
     opts.headless = True
-    opts.set_window_rect
     browser = webdriver.Firefox(options=opts)
     browser.set_window_size(1440, 900)
     wait = WebDriverWait(browser, 8)
@@ -28,14 +29,14 @@ def find_file_url(rollNumber: int) -> tuple[str, str]:
     try:
         wait.until(EC.presence_of_element_located((By.ID, "lblSRollNo")))
         name = browser.find_element(By.ID, "lblSName").text
+
         sessionMenu = wait.until(
             EC.presence_of_element_located((By.ID, "ddlSession")))
         Select(sessionMenu).select_by_value('102')
 
         semMenu = wait.until(
             EC.presence_of_element_located((By.ID, "ddlSemester")))
-        # semMenu = browser.find_element(By.ID, "ddlSemester")
-        # wait.until(EC.presence_of_element_located(By.)
+
         Select(semMenu).select_by_value('5')
 
         main_window = browser.current_window_handle
@@ -49,6 +50,7 @@ def find_file_url(rollNumber: int) -> tuple[str, str]:
                 file_url = browser.current_url
                 browser.quit()
                 return (name, file_url)
+
     except Exception as e:
         browser.quit()
         return ("Does Not Exist", str(e))
@@ -59,12 +61,12 @@ def scrapePDF(nameAndURL: tuple[str, str], rollNumber: int):
         resultsData[rollNumber] = {
             "Name": nameAndURL[0], "Error": nameAndURL[1][:15]}
         return
-    df = tabula.read_pdf(nameAndURL[1],
-                         area=(130, 47, 260, 565), pages=1)[0]
+    df = read_pdf(nameAndURL[1],
+                  area=(130, 47, 260, 565), pages=1)[0]
     subjects = df['Name of Subjects'].to_list()
     grades = df["Grade Point"].to_list()
     d = zip(subjects, grades)
-    ptrs = [float(ptr.split(":")[1]) for ptr in tabula.read_pdf(
+    ptrs = [float(ptr.split(":")[1]) for ptr in read_pdf(
         nameAndURL[1], area=(250, 100, 268, 450), pages=1)[0].columns.values.tolist()]
     if ptrs[0] > 10 or ptrs[1] > 10:
         data = {'SPI': 'F', 'CPI': 'F', "Name": nameAndURL[0], "Error": "None"}
@@ -83,10 +85,10 @@ def fetchResults(rollNumber: int):
 
 def main():
     # fetchResults(rollNumber=20115050)
-    with concurrent.futures.ThreadPoolExecutor() as executor:
+    with ThreadPoolExecutor() as executor:
         executor.map(fetchResults, rollNumbers)
 
-    df = pd.DataFrame(resultsData).transpose()
+    df = DataFrame(resultsData).transpose()
     df.to_csv('results_EE.csv')
     print(df)
 
