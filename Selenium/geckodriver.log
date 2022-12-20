@@ -28554,3 +28554,357 @@ console.warn: LoginRecipes: "Falling back to a synchronous message for: https://
 1671522977282	Marionette	INFO	Stopped listening on port 45679
 1671522978561	Marionette	INFO	Stopped listening on port 34963
 JavaScript error: , line 0: AbortError: Actor 'LoginManager' destroyed before query 'PasswordManager:findLogins' was resolved
+1671523796025	geckodriver	INFO	Listening on 127.0.0.1:43107
+1671523796029	geckodriver	INFO	Listening on 127.0.0.1:43973
+1671523796033	geckodriver	INFO	Listening on 127.0.0.1:34105
+1671523796039	geckodriver	INFO	Listening on 127.0.0.1:58565
+1671523796048	geckodriver	INFO	Listening on 127.0.0.1:36013
+1671523796051	geckodriver	INFO	Listening on 127.0.0.1:33515
+1671523796053	geckodriver	INFO	Listening on 127.0.0.1:56367
+1671523796056	geckodriver	INFO	Listening on 127.0.0.1:40499
+1671523796060	geckodriver	INFO	Listening on 127.0.0.1:55191
+1671523796063	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45347" "-no-remote" "-profile" "/tmp/rust_mozprofilezThIhm"
+1671523796070	geckodriver	INFO	Listening on 127.0.0.1:49781
+1671523796082	geckodriver	INFO	Listening on 127.0.0.1:33651
+1671523796085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43079" "-no-remote" "-profile" "/tmp/rust_mozprofileSKColt"
+1671523796088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47193" "-no-remote" "-profile" "/tmp/rust_mozprofileLDFzsW"
+1671523796092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46197" "-no-remote" "-profile" "/tmp/rust_mozprofilerEHT5m"
+1671523796092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "60583" "-no-remote" "-profile" "/tmp/rust_mozprofileKJJm51"
+1671523796092	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38821" "-no-remote" "-profile" "/tmp/rust_mozprofiletTCs6w"
+1671523796102	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55075" "-no-remote" "-profile" "/tmp/rust_mozprofilekphzom"
+1671523796104	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55441" "-no-remote" "-profile" "/tmp/rust_mozprofile6CQuF2"
+1671523796104	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49227" "-no-remote" "-profile" "/tmp/rust_mozprofileGYwzea"
+1671523796105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38559" "-no-remote" "-profile" "/tmp/rust_mozprofileagjspd"
+1671523796105	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37673" "-no-remote" "-profile" "/tmp/rust_mozprofilekRwf9I"
+1671523796105	geckodriver	INFO	Listening on 127.0.0.1:39779
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1671523796609	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55077" "-no-remote" "-profile" "/tmp/rust_mozprofiletIvdSn"
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1671523798696	Marionette	INFO	Marionette enabled
+1671523798724	Marionette	INFO	Listening on port 33173
+1671523798773	Marionette	INFO	Marionette enabled
+1671523798793	Marionette	INFO	Listening on port 33205
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1671523798949	Marionette	INFO	Marionette enabled
+1671523798966	Marionette	INFO	Marionette enabled
+1671523798979	Marionette	INFO	Listening on port 41139
+1671523798986	Marionette	INFO	Marionette enabled
+1671523799007	Marionette	INFO	Marionette enabled
+1671523799013	Marionette	INFO	Listening on port 44929
+1671523799032	Marionette	INFO	Listening on port 43709
+1671523799036	Marionette	INFO	Listening on port 38995
+WebDriver BiDi listening on ws://127.0.0.1:38821
+WebDriver BiDi listening on ws://127.0.0.1:55441
+1671523799202	Marionette	INFO	Marionette enabled
+1671523799217	Marionette	INFO	Listening on port 40097
+1671523799229	Marionette	INFO	Marionette enabled
+1671523799229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523799245	Marionette	INFO	Listening on port 44347
+1671523799245	Marionette	INFO	Marionette enabled
+1671523799281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523799287	Marionette	INFO	Listening on port 39859
+1671523799303	Marionette	INFO	Marionette enabled
+WebDriver BiDi listening on ws://127.0.0.1:60583
+1671523799355	Marionette	INFO	Listening on port 32923
+1671523799405	Marionette	INFO	Marionette enabled
+1671523799421	Marionette	INFO	Listening on port 36513
+1671523799444	Marionette	INFO	Marionette enabled
+1671523799460	Marionette	INFO	Listening on port 35965
+WebDriver BiDi listening on ws://127.0.0.1:38559
+WebDriver BiDi listening on ws://127.0.0.1:37673
+1671523799593	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:49227
+WebDriver BiDi listening on ws://127.0.0.1:55075
+WebDriver BiDi listening on ws://127.0.0.1:46197
+WebDriver BiDi listening on ws://127.0.0.1:55077
+WebDriver BiDi listening on ws://127.0.0.1:47193
+1671523799741	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:45347
+1671523799823	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523799864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523799911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523799953	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523799990	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523799991	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523800018	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:43079
+1671523800412	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6CQuF2/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileagjspd/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletIvdSn/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekphzom/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilerEHT5m/search.json.mozlz4", (void 0)))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKJJm51/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletTCs6w/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilekRwf9I/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSKColt/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGYwzea/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLDFzsW/search.json.mozlz4", (void 0)))
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezThIhm/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55441/devtools/browser/7b72d435-e2a1-4d47-b9c4-32c96a9057b0
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+DevTools listening on ws://127.0.0.1:55077/devtools/browser/5f7252f4-1c50-4b82-8c60-2a9fb207729e
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+DevTools listening on ws://127.0.0.1:46197/devtools/browser/e406402d-94c6-4fa7-bebb-afffb2a71bac
+DevTools listening on ws://127.0.0.1:55075/devtools/browser/6cec2103-50ec-4a2f-be26-3d22ee513c8a
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+DevTools listening on ws://127.0.0.1:38559/devtools/browser/f90dec4f-dde4-4d45-9370-ad39273dcd72
+DevTools listening on ws://127.0.0.1:47193/devtools/browser/9795e055-b2e1-4e3a-a6e6-6b5d8bd1b9c0
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+DevTools listening on ws://127.0.0.1:60583/devtools/browser/66d8575a-0836-4654-b3ee-492d9dc2adb3
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+DevTools listening on ws://127.0.0.1:49227/devtools/browser/ac40807d-2edd-400b-b040-e290faa61f20
+DevTools listening on ws://127.0.0.1:38821/devtools/browser/4cb5f5ba-c3e6-4444-8336-c5afda5bd3a4
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+DevTools listening on ws://127.0.0.1:37673/devtools/browser/c3bd3e76-9d50-46f9-ad3d-3eaf497d6c1b
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+DevTools listening on ws://127.0.0.1:43079/devtools/browser/f8ea11f4-7ab8-4d24-abf4-82c44ea6b81b
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+DevTools listening on ws://127.0.0.1:45347/devtools/browser/13a9a16f-9e9b-4f33-880e-dc8a436e7333
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1671523825599	Marionette	INFO	Stopped listening on port 32923
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1671523828603	Marionette	INFO	Stopped listening on port 33205
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1671523833391	Marionette	INFO	Stopped listening on port 36513
+1671523833418	Marionette	INFO	Stopped listening on port 40097
+1671523833630	Marionette	INFO	Stopped listening on port 41139
+1671523833779	Marionette	INFO	Stopped listening on port 43709
+1671523833839	Marionette	INFO	Stopped listening on port 39859
+1671523833918	Marionette	INFO	Stopped listening on port 44347
+1671523834048	Marionette	INFO	Stopped listening on port 44929
+1671523834065	Marionette	INFO	Stopped listening on port 33173
+1671523834280	Marionette	INFO	Stopped listening on port 38995
+1671523834310	geckodriver	INFO	Listening on 127.0.0.1:36951
+1671523834806	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50407" "-no-remote" "-profile" "/tmp/rust_mozprofilea2ALno"
+1671523834845	Marionette	INFO	Stopped listening on port 35965
+JavaScript error: , line 0: AbortError: Actor 'LoginManager' destroyed before query 'PasswordManager:findLogins' was resolved
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1671523838524	Marionette	INFO	Marionette enabled
+1671523838541	Marionette	INFO	Listening on port 41331
+WebDriver BiDi listening on ws://127.0.0.1:50407
+1671523838938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilea2ALno/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50407/devtools/browser/75f274e0-09d3-4512-b4b3-6c5c9fa03125
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://mis.nitrr.ac.in."
+1671523852095	Marionette	INFO	Stopped listening on port 41331
+1671523856139	geckodriver	INFO	Listening on 127.0.0.1:35789
+1671523856646	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49979" "-no-remote" "-profile" "/tmp/rust_mozprofileTb08b6"
+*** You are running in headless mode.
+1671523858215	geckodriver	INFO	Listening on 127.0.0.1:54299
+1671523858722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47603" "-no-remote" "-profile" "/tmp/rust_mozprofileb8hpKB"
+1671523858916	geckodriver	INFO	Listening on 127.0.0.1:44465
+*** You are running in headless mode.
+1671523859394	geckodriver	INFO	Listening on 127.0.0.1:45951
+1671523859429	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33183" "-no-remote" "-profile" "/tmp/rust_mozprofileRqa3ze"
+1671523859894	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44381" "-no-remote" "-profile" "/tmp/rust_mozprofile8jK6Ez"
+*** You are running in headless mode.
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1671523862203	Marionette	INFO	Marionette enabled
+1671523862267	Marionette	INFO	Listening on port 33285
+1671523862706	geckodriver	INFO	Listening on 127.0.0.1:54353
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+WebDriver BiDi listening on ws://127.0.0.1:49979
+1671523863213	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50867" "-no-remote" "-profile" "/tmp/rust_mozprofileQ8rZRT"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+*** You are running in headless mode.
+1671523863956	geckodriver	INFO	Listening on 127.0.0.1:37469
+1671523864105	Marionette	INFO	Marionette enabled
+1671523864124	Marionette	INFO	Listening on port 43443
+1671523864460	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49705" "-no-remote" "-profile" "/tmp/rust_mozprofileulHLNs"
+WebDriver BiDi listening on ws://127.0.0.1:47603
+1671523864751	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523864887	Marionette	INFO	Marionette enabled
+1671523864939	Marionette	INFO	Listening on port 39705
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+*** You are running in headless mode.
+1671523865238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1671523865621	geckodriver	INFO	Listening on 127.0.0.1:35469
+WebDriver BiDi listening on ws://127.0.0.1:33183
+1671523865994	Marionette	INFO	Marionette enabled
+1671523866066	Marionette	INFO	Listening on port 46751
+1671523866108	geckodriver	INFO	Listening on 127.0.0.1:44225
+1671523866134	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48423" "-no-remote" "-profile" "/tmp/rust_mozprofilePp8SNK"
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1671523866616	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51397" "-no-remote" "-profile" "/tmp/rust_mozprofileDZky64"
+1671523866672	geckodriver	INFO	Listening on 127.0.0.1:37557
+1671523866726	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54841" "-no-remote" "-profile" "/tmp/rust_mozprofileR347e1"
+1671523866758	geckodriver	INFO	Listening on 127.0.0.1:44043
+1671523866837	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+*** You are running in headless mode.
+*** You are running in headless mode.
+1671523866940	Marionette	INFO	Marionette enabled
+1671523866960	Marionette	INFO	Listening on port 41085
+WebDriver BiDi listening on ws://127.0.0.1:44381
+*** You are running in headless mode.
+1671523867188	geckodriver	INFO	Listening on 127.0.0.1:37177
+1671523867269	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37637" "-no-remote" "-profile" "/tmp/rust_mozprofilemYrur6"
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1671523867598	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1671523867696	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33315" "-no-remote" "-profile" "/tmp/rust_mozprofilemsMG9w"
+WebDriver BiDi listening on ws://127.0.0.1:50867
+*** You are running in headless mode.
+1671523867994	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+*** You are running in headless mode.
+1671523868443	Marionette	INFO	Marionette enabled
+1671523868489	Marionette	INFO	Listening on port 41337
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTb08b6/search.json.mozlz4", (void 0)))
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+WebDriver BiDi listening on ws://127.0.0.1:49705
+1671523869159	Marionette	INFO	Marionette enabled
+1671523869179	Marionette	INFO	Listening on port 45651
+1671523869465	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:54841
+1671523869599	Marionette	INFO	Marionette enabled
+1671523869641	Marionette	INFO	Listening on port 44729
+1671523869779	Marionette	INFO	Marionette enabled
+1671523869806	Marionette	INFO	Listening on port 44467
+1671523869931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+WebDriver BiDi listening on ws://127.0.0.1:51397
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+WebDriver BiDi listening on ws://127.0.0.1:48423
+1671523870416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1671523870634	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+1671523871071	Marionette	INFO	Marionette enabled
+1671523871087	Marionette	INFO	Listening on port 39399
+1671523871307	geckodriver	INFO	Listening on 127.0.0.1:54889
+1671523871312	geckodriver	INFO	Listening on 127.0.0.1:40489
+1671523871312	geckodriver	INFO	Listening on 127.0.0.1:51239
+1671523871345	geckodriver	INFO	Listening on 127.0.0.1:42457
+1671523871351	geckodriver	INFO	Listening on 127.0.0.1:46365
+1671523871392	geckodriver	INFO	Listening on 127.0.0.1:50763
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671523871404	geckodriver	INFO	Listening on 127.0.0.1:54075
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671523871409	geckodriver	INFO	Listening on 127.0.0.1:54431
+1671523871419	geckodriver	INFO	Listening on 127.0.0.1:32973
+1671523871444	geckodriver	INFO	Listening on 127.0.0.1:59859
+Exiting due to channel error.
+Exiting due to channel error.
+1671523871444	geckodriver	INFO	Listening on 127.0.0.1:60783
+Exiting due to channel error.
+1671523871453	geckodriver	INFO	Listening on 127.0.0.1:53139
+1671523871476	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59373" "-no-remote" "-profile" "/tmp/rust_mozprofileDA7o3Z"
+1671523871479	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38375" "-no-remote" "-profile" "/tmp/rust_mozprofileVxPiRI"
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1671523871494	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40071" "-no-remote" "-profile" "/tmp/rust_mozprofileUNKfyN"
+Exiting due to channel error.
+Exiting due to channel error.
+1671523871509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39923" "-no-remote" "-profile" "/tmp/rust_mozprofilez3ZXM3"
+1671523871509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "43075" "-no-remote" "-profile" "/tmp/rust_mozprofilehHpLfc"
+1671523871517	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33099" "-no-remote" "-profile" "/tmp/rust_mozprofileNjomLg"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1671523871814	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52933" "-no-remote" "-profile" "/tmp/rust_mozprofilehYa9xI"
+1671523871821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "38235" "-no-remote" "-profile" "/tmp/rust_mozprofileZGlpfp"
+1671523871858	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39693" "-no-remote" "-profile" "/tmp/rust_mozprofile2RaDIO"
+1671523871898	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "54189" "-no-remote" "-profile" "/tmp/rust_mozprofileXi6oca"
+1671523871918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55213" "-no-remote" "-profile" "/tmp/rust_mozprofileZuVfCc"
+1671523871948	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37607" "-no-remote" "-profile" "/tmp/rust_mozprofilehw2au3"
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+*** You are running in headless mode.
+1671523872354	geckodriver	INFO	Listening on 127.0.0.1:34005
+1671523872369	geckodriver	INFO	Listening on 127.0.0.1:55485
+1671523872373	geckodriver	INFO	Listening on 127.0.0.1:50895
+1671523872394	geckodriver	INFO	Listening on 127.0.0.1:59423
+1671523872398	geckodriver	INFO	Listening on 127.0.0.1:44605
+1671523872401	geckodriver	INFO	Listening on 127.0.0.1:39533
+1671523872403	geckodriver	INFO	Listening on 127.0.0.1:59097
+1671523872407	geckodriver	INFO	Listening on 127.0.0.1:34057
+1671523872410	geckodriver	INFO	Listening on 127.0.0.1:58061
+1671523872413	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34341" "-no-remote" "-profile" "/tmp/rust_mozprofileoMIlfI"
+1671523872414	geckodriver	INFO	Listening on 127.0.0.1:41047
+1671523872419	geckodriver	INFO	Listening on 127.0.0.1:39635
+*** You are running in headless mode.
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1671523873114	Marionette	INFO	Marionette enabled
+1671523873121	Marionette	INFO	Listening on port 37197
+WebDriver BiDi listening on ws://127.0.0.1:34341
+1671523873319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileoMIlfI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34341/devtools/browser/7eea02b0-f1cb-48ee-b89c-bc7a5d5d6e4a
