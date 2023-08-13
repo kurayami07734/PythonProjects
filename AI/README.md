@@ -1,9 +1,7 @@
 # Notes
 
 <details>
-<summary>
-Basic Terms
-</summary>
+<summary>Basic Terms</summary>
 
 1. Agent - An entity which is able to percieve and act on its environment
 2. State - Any configuration of state and the agent.
@@ -12,4 +10,13 @@ Basic Terms
 5. State space - Set of possible states after applying any valid sequence of actions.
 6. Goal test - a method to check if goal state is achieved.
 7. Path cost - Cost associated with the path taken to reach goal state. Usually used to optimize the path.
+</details>
+
+<details>
+  <summary>Types of search</summary>
+
+1. Uninformed search - Algorithms which do not use any problem-specific information.
+2. Informed search - Use problem-specific knowledge to find solutions faster.
+   1. Greedy Best-first search
+
 </details>
