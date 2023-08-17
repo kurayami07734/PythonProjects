@@ -92,7 +92,7 @@ def shortest_path(source, target):
     If no possible path, returns None.
     """
     start = Node(state=source, parent=None, action=None)
-    frontier = StackFrontier()
+    frontier = QueueFrontier()
     visited = set()
     frontier.add(start)
 

@@ -20,9 +20,11 @@ def main():
         ratings.extend([rating.text for rating in ratingElements])
         names.extend([elem.text for elem in nameElements])
     data = list(zip(names, ratings))
-    a = pd.DataFrame(data, index=range(1, len(data) + 1), columns=["Name", "Rating"])
+
+    a = pd.DataFrame(data, index=range(1, len(data) + 1),
+                     columns=["Name", "Rating"])
     a.rename_axis("Ranking", inplace=True)
-    print(a)
+
     a.to_csv("rankings.csv")
 
 
