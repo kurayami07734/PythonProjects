@@ -1,0 +1,747 @@
+A Project Report on
+Detection of Vitiligo using Machine Learning
+techniques: Convolutional Neural Network and
+Transfer Learning
+Submitted to
+Department of Electrical Engineering
+National Institute of Technology, Raipur
+Submitted by
+Aditya Ghidora
+20117005
+VII Semester
+Department of Electrical Engineering
+Under the supervision of
+Dr. Hari Priya Vemuganti
+Assistant Professor
+Department of Electrical Engineering
+National Institute of Technology, Raipur
+Certificate
+I hereby certify that the work which is presented in B.Tech. Major Project Report
+entitled “Detection of Vitiligo using Machine Learning techniques: Convo-
+lutional Neural Network and Transfer Learning” in partial fulfilment of the
+requirements for the award of the Bachelor of Technology in Electrical Engineering
+and submitted to the Department of Electrical Engineering of National Institute of
+Technology, Raipur is an authentic record of my own work carried out during
+a period from July 2023 to November 2023 under the supervision of Dr. Hari
+Priya Vemuganti, Assistant Professor, Department of Electrical Engineering, Na-
+tional Institute of Technology, Raipur. The matter in this thesis has not been sub-
+mitted by me for the award of any other degree elsewhere.
+Aditya Ghidora
+20117005
+This is to certify that the above statement made by the candidates is correct to
+the best of my knowledge
+Signature
+Dr. Anamika Yadav
+Head of Department
+Department of Electrical Engineering
+National Institute of Technology, Raipur
+Signature of Supervisor
+Dr. Hari Priya Vemuganti
+Assistant Professor
+Department of Electrical Engineering
+National Institute of Technology, Raipur
+i
+Declaration by the Candidate
+I, the undersigned, solemnly declare that the report of the major project entitled
+“Detection of Vitiligo using Machine Learning techniques: Convolutional
+Neural Network and Transfer Learning”, Submitted to the Department of
+Electrical Engineering, National Institute of Technology, Raipur, November 2023 for
+the Bachelor of Technology degree in Electrical Engineering is based on our
+work carried out during the course of our study under the supervision and guidance
+of Dr. Hari Priya Vemuganti.
+We further declare that to the best of our knowledge and belief the thesis does
+not contain any part of any work which has been submitted for the award of any
+other degree or certificate either in this institute or any other university without
+proper citation
+Aditya Ghidora
+20117005
+ii
+Declaration against Plaigiarism
+We understand that plagiarism is defined as any one or the combination of the
+following:
+• Uncredited verbatim copying of individual sentences, paragraphs or illustra-
+tions (such as graphs, diagram, etc.) from any source, published or unpublished
+including the internet.
+• Uncredited improper paraphrasing of pages or paragraphs (changing a few
+words or phrases or rearranging the original sentence order).
+• Credited verbatim copying of a major portion of a paper (or thesis chapter)
+without clear declaration of who did wrote what (Source: IEEE, The Institute,
+and Dec.2004)
+I have made sure that all the ideas, expressions, graphs, diagrams, etc., that
+are not a result of my work, are properly credited. Long phrases or sentences that
+had to be used verbatim from published literature have been clearly identified using
+quotation marks.
+I affirm that no portion of my work can be considered as plagiarism, and I take
+full responsibility if such a complaint occurs. I understand fully well that guide of
+the thesis may not be in a portion to check for the possibility of such incidences of
+plagiarism in this body of work
+Aditya Ghidora
+20117005
+iii
+Acknowledgement
+First and foremost, I offer my sincerest gratitude to my supervisor Dr. Hari Priya
+Vemuganti who has supported me throughout my major project with her utmost
+patience and enlightened us with her vast pool of knowledge whilst us the room to
+work in my way.
+I attribute the level of our success in completing the project to her encouragement
+and effort without which, this project would not have been a success.
+I offer my gratitude to AtlasNet, DermNet, iStockPhoto, ShutterStock for pro-
+viding the images used to train the model to detect Vitiligo.
+I would like extend my thanks to Google for developing and maintaining Ten-
+sorflow, upon which this whole project sits on and also for graciously providing free
+credits to use their cloud resources, without which the model could not be hosted.
+I would like to thank the developers of Python
+Aditya Ghidora
+20117005
+VII Semester
+National Institute of Technology, Raipur
+iv
+Contents
+1 Introduction 2
+1.1 Medical information on Vitiligo . . . . . . . . . . . . . . . . . . . . . 3
+1.1.1 Symptoms . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.1.2 Causes . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.2 Motivation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+1.3 Objective . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+2 Literature Review 5
+3 Materials and Methods 5
+3.1 Data collection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+3.2 Techniques used for creating models . . . . . . . . . . . . . . . . . . . 6
+3.2.1 Data Augmentation . . . . . . . . . . . . . . . . . . . . . . . . 6
+3.2.2 Data preprocessing . . . . . . . . . . . . . . . . . . . . . . . . 6
+3.2.3 Transfer Learning . . . . . . . . . . . . . . . . . . . . . . . . . 7
+3.3 Training the models . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7
+3.3.1 Resources utilized . . . . . . . . . . . . . . . . . . . . . . . . . 7
+3.3.2 Training and evaluation protocols . . . . . . . . . . . . . . . . 8
+4 Challenges and Limitations 8
+5 ML Models 9
+5.1 Simple Convolutional Neural Network Model . . . . . . . . . . . . . . 9
+5.2 Convolutional Neural Network Model with data augmentation . . . . 11
+5.3 Simple ResNet50 model . . . . . . . . . . . . . . . . . . . . . . . . . 12
+5.4 ResNet50 model with data augmentation . . . . . . . . . . . . . . . . 12
+6 Review of performance metrics 14
+7 Implementation of the application 17
+8 Ethical Considerations 19
+9 Future scope 19
+10 Conclusion 20
+11 References 21
+List of Figures 22
+List of Tables 23
+Nomenclature 23
+20117005 Vitiligo Detection Aditya Ghidora
+Abstract
+Vitiligo, characterized by the loss of skin color in patches that tend to enlarge over
+time, can impact any part of the body, including hair and the inside of the mouth.
+While this condition does not inflict physical harm, its psychological toll is significant,
+often leading to stress and body image concerns for those affected.[5]
+Dermatologists employ various diagnostic methods, such as biopsies, blood tests,
+and patch testing under specialized lamps, to confirm the presence of Vitiligo. These
+diagnostic tools help healthcare professionals understand the extent and charac-
+teristics of the condition. Once diagnosed, treatment approaches typically involve
+medications aimed at halting the progression of depigmentation or promoting repig-
+mentation. [4]
+Several Machine Learning models were developed for binary image classification
+to detect Vitiligo, leveraging rchitecture and Transfer Learning with the pre-trained
+ResNet model. The training dataset comprised 3628 images.
+The basic CNN model demonstrated commendable performance with an accuracy
+of 0.8153, a recall rate of 0.9949, and a precision score of 0.7548. To enhance the
+model’s robustness, a Convolutional Neural Network model with data augmentation
+was implemented, resulting in improved metrics: accuracy at 0.8707, recall at 0.9221,
+and precision at 0.8595.
+The ResNet50 model, known for its deep architecture, exhibited substantial ef-
+ficacy even without data augmentation, achieving an accuracy of 0.9091, a recall of
+0.9123, and a precision of 0.9262. The addition of data augmentation further ele-
+vated the ResNet50 model’s performance, yielding an impressive accuracy of 0.9659,
+a recall of 0.9661, and a precision of 0.9756.
+Keywords
+Vitiligo, Machine Learning, Transfer Learning, Convolutional Neural Networks, Python,
+Image Classification
+1/23
+20117005 Vitiligo Detection Aditya Ghidora
+1 Introduction
+The surge in Machine Learning and Deep Learning models within healthcare presents
+a crucial augmentation to medical professionals’ diagnostic capabilities, offering a
+much-needed support system. The development of Artifical Intelligence-enabled
+medical equipment has become a focal point, aiming to alleviate the burdens on
+overworked healthcare practitioners. These technologies, particularly adept at ana-
+lyzing medical images like X-rays and mammograms, enhance disease detection and
+diagnosis.
+By employing ML and DL algorithms, AI-equipped systems can discern intricate
+patterns and anomalies in medical images, providing a level of detail that might
+escape human observation. This not only improves diagnostic accuracy but also
+accelerates the decision-making process, crucial in time-sensitive situations. Ongo-
+ing research is expanding the scope of applications, encompassing various medical
+conditions and imaging modalities.
+Figure 1: Emerging use of AI in medical diagnosis
+The collaborative integration of AI into medical workflows acts as an additional
+layer of scrutiny, streamlining processes for healthcare professionals. However, it’s
+important to emphasize that AI serves as a supportive tool rather than a replacement
+for human expertise. The synergy between AI and medical professionals holds the
+potential to enhance patient outcomes and optimize resource allocation.
+As these technologies mature, their role in medical diagnosis and treatment is set
+to become more prominent, contributing to a more resilient and efficient healthcare
+system. The ongoing evolution of AI in healthcare reflects a promising trajectory,
+where advanced technologies work hand in hand with human professionals to address
+the growing complexities of the medical landscape.
+2/23
+20117005 Vitiligo Detection Aditya Ghidora
+1.1 Medical information on Vitiligo
+1.1.1 Symptoms
+Vitiligo is characterized by the development of white patches on the skin due to the
+loss of melanocytes, the cells responsible for pigmentation. The primary symptom
+is depigmentation, resulting in distinct white or light-colored patches on the skin.
+Figure 2: Extensive symmetric facial Vitiligo [2]
+These patches often expand over time and can appear on various parts of the
+body, including the face, hands, feet, and mucous membranes. Vitiligo is gener-
+ally asymptomatic, but individuals may experience cosmetic concerns, psychological
+distress, or sensitivity to sunlight in affected areas. [5]
+1.1.2 Causes
+Figure 3: Medical diagram of Vitiligo [5]
+The exact causes of vitiligo are not fully understood, but it is widely considered to
+be an autoimmune condition. The immune system mistakenly attacks and destroys
+3/23
+20117005 Vitiligo Detection Aditya Ghidora
+melanocytes, leading to depigmentation. Genetic factors play a role, as individuals
+with a family history of vitiligo have a higher risk of developing the condition.
+Additionally, environmental factors, such as exposure to certain chemicals or
+stress, may contribute to the onset or exacerbation of vitiligo. Disorders like thyroid
+dysfunction and diabetes are associated with an increased risk of vitiligo. While
+there is no cure, various treatments aim to manage symptoms and potentially restore
+pigment in affected areas. [5]
+1.2 Motivation
+Capitalizing on the widespread availability of smartphones and laptops, a techni-
+cal initiative aims to develop an app offering the general public a preliminary self-
+assessment of their medical condition. By leveraging machine learning algorithms
+and advanced image analysis, the application provides users with an accessible in-
+terface for health diagnostics.
+This endeavor seeks to democratize healthcare by utilizing personal devices to
+bridge the gap between limited access to medical equipment and individual health
+awareness. The app’s functionality empowers users to take proactive measures for
+their well-being, potentially leading to early interventions and improved health out-
+comes.
+Figure 4: Simplified architecture of the application
+1.3 Objective
+• Develop an efficient ML model for the classification of images into Vitiligo and
+Healthy conditions.
+• Compare and evaluate diverse ML techniques to identify the most effective
+model for detecting Vitiligo.
+4/23
+20117005 Vitiligo Detection Aditya Ghidora
+• Design and implement a straightforward, user-friendly application, ensuring
+accessibility for all individuals to easily utilize the developed ML model for
+Vitiligo detection
+2 Literature Review
+In reference [7], the authors employed a seven-class imbalanced dataset, encompass-
+ing images of Acne, Eczema, Pityriasis Rosea, Psoriasis, Tinea Corporis, Varicella,
+and Vitiligo, totaling 3406 images for model training. Their implemented model,
+based on MobileNet and fine-tuned, achieved an accuracy of 94.4%. Notably, the
+fine-tuning process yielded 84.28% accuracy. To enhance model performance, the
+authors applied data augmentation and oversampling techniques, resulting in the
+highest accuracy of 94.4%.
+In [6], the focus shifted to binary classification of Vitiligo in a dataset comprising
+1202 images, differentiating between Vitiligo and Healthy conditions. The authors
+explored various techniques, including Decision Trees, Random Forests, Naive Bayes,
+and a Convolutional Neural Network (CNN) with Inception V3. Due the limited
+dataset, the best-performing model achieved an accuracy of 99.9%, highlighting the
+need of more data in the context of binary classification.
+Model Technique Size of Dataset Accuracy
+Decision Trees with Inception V3 1202 97.8%
+Random Forests with Inception V3 1202 99.9%
+CNN with Inception V3 1202 99.8%
+Naive Bayes with Inception V3 1202 99.5%
+CNN with MobileNet 3406 94.4%
+Table 1: Comparison of models created by relevant papers
+The aforementioned outcomes indicate that the optimal approach involves the
+incorporation of Transfer Learning in conjunction with CNN. Fine-tuning such a
+model on an expansive dataset is suggested to produce superior results.
+This strategic combination leverages the pre-existing knowledge encoded in a
+pre-trained model and refines its parameters through fine-tuning on a larger dataset.
+The technical synergy of TL and CNN architecture, when applied and adjusted
+in this manner, is anticipated to yield the most favorable outcomes in terms of model
+accuracy and performance.
+3 Materials and Methods
+This section delineates the methodology employed in the creation of the dataset
+and expounds on the techniques utilized for developing models aimed at detecting
+Vitiligo.
+The elucidation encompasses the intricacies of dataset compilation, encompassing
+initial data extraction from diverse sources and subsequent amalgamation.
+5/23
+20117005 Vitiligo Detection Aditya Ghidora
+Furthermore, it delves into the technical nuances of employing various method-
+ologies in the model creation process, shedding light on the systematic approaches
+applied to enhance the efficacy of Vitiligo detection models.
+3.1 Data collection
+Vitiligo images were sourced from diverse repositories, initially originating from a
+singular Kaggle dataset containing 500 images. Subsequently, the dataset was en-
+riched by incorporating images from AtlasNet, DermNet, and stock image websites
+such as Shutterstock and iStock.
+To ensure comprehensive representation, images for the healthy class were se-
+lected to encompass a broad spectrum of ethnicities and variations in hair presence,
+accommodating the model’s effectiveness across diverse skin types. The resulting
+dataset was then publicly shared on Kaggle, facilitating accessibility for research
+and development within the scientific community. [1]
+Class Number of Images
+Vitiligo 2100
+Healthy 1528
+Total 3628
+Table 2: Classwise split of dataset
+3.2 Techniques used for creating models
+3.2.1 Data Augmentation
+Data augmentation involves artificially expanding the dataset through transforma-
+tions applied to images. These transformations encompass random operations such
+as zooming, rotating, flipping, inverting, altering contrast, adjusting brightness, and
+more. In this context, specific transformations like random zooms, flips, and crops
+were selected due to their non-pixel value manipulation nature.
+Contrast manipulation was intentionally excluded from the augmentation pro-
+cess, considering that Vitiligo involves abnormal skin discoloration. The avoidance
+of contrast adjustments is crucial to prevent potential interference with the fidelity
+of the model’s results in the context of Vitiligo detection.
+3.2.2 Data preprocessing
+TensorFlow mandates uniform image dimensions, necessitating the resizing of all
+images to 256 × 256. To expedite convergence, neural networks exhibit faster training
+when pixel values are confined within the [0, 1] domain. Consequently, pixel values
+were normalized by dividing them by 255.
+The dataset underwent a tripartite division into training, testing, and valida-
+tion sets, with proportions allocated as 70%, 20%, and 10%, respectively. This
+6/23
+20117005 Vitiligo Detection Aditya Ghidora
+segmentation ensures a systematic and standardized distribution for model training,
+evaluation, and validation, adhering to established practices in machine learning.
+3.2.3 Transfer Learning
+Transfer learning involves leveraging a pre-trained model, initially trained for a more
+generalized task, and subsequently retraining it on a more specific and condensed
+dataset.
+In this context, ResNet50, a model originally trained on the expansive ImageNet
+dataset comprising over a million images, has been employed.
+This strategy allows the model to benefit from the learned features and repre-
+sentations from the broader dataset, enhancing its capacity to discern and extract
+relevant patterns in the targeted domain of interest.
+Figure 5: Architecture of the ResNet50 model
+3.3 Training the models
+3.3.1 Resources utilized
+The initial models, characterized by their simplicity and modest size, were amenable
+to training on a laptop equipped with 8GB of Random Access Memory and a quad-
+core Intel Central Processing Unit. However, the computational demands of the
+ResNet models surpassed the capabilities of the laptop’s resources.
+Consequently, these more intricate models necessitated the utilization of Kaggle’s
+Graphical Processing Unit resources, specifically the P100 model, to accommodate
+the heightened computational requirements.
+The fine-tuning process for the ResNet models, executed on the Kaggle GPU,
+incurred a total training time of 849 seconds. This shift to GPU acceleration signifi-
+cantly expedited the training process, leveraging the parallel processing capabilities
+inherent in GPUs to enhance the efficiency of model optimization.
+The transition to more robust hardware resources reflects the pragmatic adap-
+tation to the escalating complexities and computational demands associated with
+fine-tuning intricate neural network architectures.
+7/23
+20117005 Vitiligo Detection Aditya Ghidora
+3.3.2 Training and evaluation protocols
+The training process was conducted over 20 epochs, representing the number of
+complete passes through the entire dataset. The validation set, constituting 10%
+of the dataset, was utilized for assessing model performance during training. Key
+performance metrics, including accuracy, precision, and recall, were systematically
+monitored throughout the training phase to gauge the model’s proficiency in distin-
+guishing between Vitiligo and healthy instances.
+This methodology ensures a comprehensive evaluation of the model’s learning
+progress and generalization capabilities. The choice of 20 epochs strikes a balance
+between allowing the model to sufficiently learn the underlying patterns in the data
+and preventing overfitting. The continuous tracking of accuracy, precision, and recall
+serves as crucial indicators for model convergence and effectiveness in the context of
+Vitiligo detection.
+In the training of the Vitiligo detection models, the choice of the loss function
+was binary cross-entropy. This particular loss function is well-suited for binary clas-
+sification tasks, such as distinguishing between Vitiligo and non-Vitiligo instances.
+Binary cross-entropy quantifies the dissimilarity between predicted and actual
+class probabilities, serving as a pivotal component in optimizing the model parame-
+ters during the training process.
+For the fine-tuning phase, a learning rate of 10−5 was employed. The learning
+rate is a hyperparameter that dictates the step size taken during the optimization
+process.
+In the context of fine-tuning, a relatively low learning rate is often favored to
+ensure gradual adjustments to the pre-trained model’s weights.
+This cautious learning rate mitigates the risk of overfitting and enables the model
+to refine its parameters without compromising the knowledge encoded in the pre-
+existing layers, contributing to the effective adaptation of the model to the specific
+nuances of Vitiligo detection.
+4 Challenges and Limitations
+The development of the machine learning model for Vitiligo detection, while promis-
+ing, is not without challenges and limitations. One prominent challenge is the po-
+tential for bias in the dataset, impacting the model’s generalizability across diverse
+populations. The imbalanced distribution of Vitiligo and non-Vitiligo instances may
+lead to a skewed model, affecting its ability to discern rare patterns. Additionally,
+the reliance on image data might pose challenges in cases where other clinical data
+could provide valuable context.
+The computational demands, especially for more complex models like ResNet,
+present a limitation, necessitating access to specialized hardware for efficient training.
+The dependency on GPUs, as observed in your transition to Kaggle for ResNet model
+training, highlights this resource-intensive aspect.
+Moreover, the interpretability of deep learning models remains a challenge, mak-
+8/23
+20117005 Vitiligo Detection Aditya Ghidora
+ing it challenging to understand and explain the decision-making processes of the
+model. Ensuring ethical considerations in deploying the model, particularly regard-
+ing issues of fairness and potential biases, is crucial.
+These challenges and limitations underscore the need for ongoing refinement,
+transparency, and consideration of broader ethical implications in the development
+and deployment of machine learning models for dermatological diagnoses. Future
+iterations should aim to address these constraints for a more robust and inclusive
+Vitiligo detection system.
+An additional noteworthy limitation of the developed models is their suscepti-
+bility to generating inaccurate results when presented with irrelevant images. Since
+the models are trained specifically for Vitiligo detection, introducing images outside
+the scope of dermatological conditions could lead to misinterpretations.
+The inherent nature of deep learning models, especially convolutional neural net-
+works, involves learning intricate patterns specific to the trained domain. When
+confronted with unrelated or non-dermatological images, the models may produce
+unpredictable outcomes, potentially yielding false positives or inaccurate classifica-
+tions.
+This limitation emphasizes the importance of ensuring that the input data aligns
+with the intended use case and that the models are deployed within the context for
+which they were meticulously trained. Rigorous validation and input constraints are
+essential to mitigate the risk of erroneous outputs when confronted with irrelevant
+or out-of-scope image data.
+5 ML Models
+5.1 Simple CNN Model
+The exploratory phase of this endeavor commenced with the implementation of the
+most basic machine learning model suitable for image classification — the Convo-
+lutional Neural Network (CNN). In its initial instantiation, the architecture was
+configured with three convolutional blocks, each comprising a convolutional layer
+succeeded by a max-pooling layer.
+This simplified structure was selected to establish a foundational understanding
+of the task, prioritizing simplicity for initial experimentation. Subsequent iterations
+and model refinements were guided by the insights gained from this foundational
+CNN configuration, paving the way for the exploration of more intricate architectures
+and techniques.
+Metric Value
+Accuracy 0.8153
+Precision 0.7548
+Recall 0.9949
+Table 3: Test results for simple CNN model [3]
+9/23
+20117005 Vitiligo Detection Aditya Ghidora
+Figure 6: Summary of layers of simple CNN model
+10/23
+20117005 Vitiligo Detection Aditya Ghidora
+Figure 7: Summary of layers of CNN model with data augmentation
+5.2 CNN Model with data augmentation
+Recognizing the limitations of the initial model’s efficacy in learning intricate pat-
+terns, a strategic intervention was implemented. To address this, the dataset size
+was augmented through the techniques elucidated in section 3.2.1. However, the
+fundamental architecture of the model remained unaltered, and instead, data aug-
+mentation layers were introduced as an augmentation strategy.
+11/23
+20117005 Vitiligo Detection Aditya Ghidora
+These additional layers were appended atop the existing model structure. The
+objective was to enhance the model’s capacity to discern complex patterns and vari-
+ations within the data, leveraging the diversified information generated through data
+augmentation processes. This iterative refinement aimed at improving the model’s
+robustness and performance by providing it with a more extensive and varied dataset.
+Metric Value
+Accuracy 0.8707
+Precision 0.8595
+Recall 0.9221
+Table 4: Test results for CNN model with data augmentation [3]
+5.3 Simple ResNet50 model
+In this phase, attention was directed towards fine-tuning the ResNet50 model specif-
+ically for the Vitiligo-focused dataset. The strategy involved retaining a simplified
+layer configuration, emphasizing a focused and purpose-driven adaptation of the
+pre-trained ResNet50 architecture.
+The fine-tuning process involved keeping the layers concise, prioritizing a stream-
+lined model architecture tailored to the intricacies of the Vitiligo dataset.
+By adhering to a simplified layer structure, the objective was to strike a balance
+between leveraging the learned features from the broader ImageNet dataset while
+ensuring the model’s adaptability to the nuances of the targeted Vitiligo classification
+task.
+This deliberate simplification aimed to optimize the model’s capacity to discern
+Vitiligo-specific patterns and variations, contributing to enhanced performance and
+accuracy.
+Metric Value
+Accuracy 0.9091
+Precision 0.9262
+Recall 0.9123
+Table 5: Test results for simple ResNet50 model [3]
+5.4 ResNet50 model with data augmentation
+In pursuit of optimizing the performance metrics of the fine-tuned ResNet50 model,
+a deliberate augmentation strategy was introduced. To align with the methodology
+detailed in section 3.2.1, the same data augmentation layers were incorporated into
+the model architecture. This augmentation approach involved integrating layers
+designed to perform operations such as random zooming, flipping, and cropping.
+The objective was to introduce variability and diversity into the training data,
+promoting a more robust and generalized learning experience for the model. By
+12/23
+20117005 Vitiligo Detection Aditya Ghidora
+Figure 8: Summary of simple ResNet50 Model
+Metric Value
+Accuracy 0.9659
+Precision 0.9756
+Recall 0.9661
+Table 6: Test results for the ResNet50 model with data augmentation [3]
+extending the data augmentation layers to the fine-tuned ResNet50 model, the aim
+was to enhance its adaptability to variations within the Vitiligo dataset, ultimately
+leading to improved overall performance metrics.
+13/23
+20117005 Vitiligo Detection Aditya Ghidora
+Figure 9: Summary of ResNet50 model with data augmentation
+6 Review of performance metrics
+This section entails a comprehensive comparison of the performance metrics exhib-
+ited by the four distinct models trained on the dataset.
+The evaluation encompasses rigorous scrutiny of key metrics such as accuracy,
+recall, and precision, providing a quantitative assessment of each model’s efficacy in
+the task of Vitiligo detection.
+By systematically analyzing these metrics, this comparative examination seeks
+14/23
+20117005 Vitiligo Detection Aditya Ghidora
+CNN CNN-DA ResNet ResNet-DA
+80
+82
+84
+86
+88
+90
+92
+94
+96
+98
+81.53
+87.07
+90.91
+96.59
+Accuracy in percentage
+Figure 10: Comparison of accuracy of models
+to discern nuanced differences in model performance, facilitating an informed under-
+standing of the strengths and limitations inherent in each architecture.
+Such a technical scrutiny is pivotal for discerning the relative merits of the mod-
+els and discerning optimal strategies for Vitiligo detection within the scope of the
+dataset.
+CNN CNN-DA ResNet ResNet-DA
+75
+80
+85
+90
+95
+100
+75.48
+85.95
+92.62
+97.56
+Precision in percentage
+Figure 11: Comparison of precision of models
+Binary accuracy is a metric that gauges the overall correctness of a model in
+binary classification. It measures the proportion of correctly predicted instances
+15/23
+20117005 Vitiligo Detection Aditya Ghidora
+(both true positives and true negatives) among the total instances in the dataset.
+This metric provides a general overview of the model’s ability to make accurate
+predictions across both positive and negative classes.
+CNN CNN-DA ResNet ResNet-DA
+90
+92
+94
+96
+98
+100 99.49
+92.21
+91.23
+96.61
+Recall in percentage
+Figure 12: Comparison of recall of models
+DT-I3 RF-I3 CNN-I3 NB-I3 CNN-MN ResNet-DA
+94
+95
+96
+97
+98
+99
+100
+97.8
+99.9 99.8 99.5
+94.4
+96.59
+Accuracy in percentage
+Figure 13: Comparison of accuracy of models from the reviewed papers (from table1)
+Precision is a metric that assesses the accuracy of positive predictions made
+by the model. It is calculated as the ratio of true positives to the sum of true
+positives and false positives. Precision is particularly relevant when the cost of
+16/23
+20117005 Vitiligo Detection Aditya Ghidora
+false positives is high, as it reflects the model’s capability to avoid making incorrect
+positive predictions.
+Recall measures the ability of a model to correctly identify all relevant instances
+in the dataset. It is computed as the ratio of true positives to the sum of true
+positives and false negatives. Recall is crucial in situations where the cost of false
+negatives is high, as it indicates the model’s capacity to capture all instances of the
+positive class.
+7 Implementation of the application
+Figure 14: User Interface of the application
+The Vitiligo detection application is a comprehensive full-stack solution, metic-
+ulously crafted with a tech stack that includes Svelte for the frontend, utilizing
+JavaScript for dynamic functionalities, and PicoCSS for lightweight styling. Vite
+serves as the frontend build tool, optimizing the application’s performance.
+For the backend, the Vitiligo detection model is hosted on Google Cloud infras-
+tructure, precisely utilizing Google Cloud Run for efficient deployment and scal-
+ability. The model is exposed as an Application Programming Interface through
+FastAPI, a high-performance web framework for building APIs with Python.
+FastAPI facilitates seamless integration and communication between the fron-
+tend and the machine learning model, ensuring swift and reliable data processing
+17/23
+20117005 Vitiligo Detection Aditya Ghidora
+Figure 15: Flow chart of the FastAPI backend
+for Vitiligo detection. This technical architecture showcases a robust combination
+of frontend and backend technologies, leveraging cloud infrastructure to enhance ac-
+cessibility, scalability, and overall performance of the Vitiligo detection application.
+The Vitiligo detection application is hosted on the Vercel platform and can be
+accessed at the following URL: https://vitiligo-detection.vercel.app/#. The
+application is bifurcated into distinct repositories, demonstrating a modularized ar-
+chitecture.
+The frontend codebase is housed at
+https://github.com/kurayami07734/vitiligo-detection, and the backend
+code resides at
+https://github.com/kurayami07734/vitiligo-detector-api.
+Vercel serves as the hosting platform for the frontend, providing a scalable and
+performant environment for the user interface. The frontend repository encompasses
+the client-side logic, leveraging technologies such as Svelte for efficient web develop-
+ment, JavaScript for dynamic functionalities, and PicoCSS for streamlined styling.
+The modular separation of the frontend facilitates independent development and
+maintenance.
+On the backend, the application’s logic is encapsulated in the repository hosted at
+https://github.com/kurayami07734/vitiligo-detector-api. FastAPI, a Python
+web framework designed for high-performance APIs, is utilized to host the backend
+logic. This includes serving the machine learning model, handling API requests, and
+facilitating communication between the frontend and the Vitiligo detection model.
+This technical architecture, distributed across frontend and backend repositories,
+highlights a decoupled and modular design, fostering maintainability, scalability, and
+collaborative development practices.
+18/23
+20117005 Vitiligo Detection Aditya Ghidora
+8 Ethical Considerations
+Ethical considerations play a pivotal role in the development and deployment of
+machine learning models for Vitiligo detection. Firstly, it’s crucial to address issues
+of fairness and potential biases in the dataset and model predictions. Biases can
+arise from imbalances in the training data or reflect existing disparities in healthcare
+access. Efforts should be made to ensure the model does not disproportionately
+impact specific demographics, mitigating potential social and ethical implications.
+Informed consent is another ethical cornerstone, especially when involving med-
+ical data. Participants contributing images for model training should be fully in-
+formed about the purpose, risks, and potential benefits of the study. Strict privacy
+measures should be implemented to safeguard sensitive health information, adhering
+to relevant data protection regulations.
+Transparency and interpretability are paramount. Understanding how the model
+reaches its conclusions is crucial for building trust among users and healthcare practi-
+tioners. Efforts to make the decision-making process of the model more interpretable
+contribute to the ethical use of machine learning in healthcare.
+Additionally, continuous monitoring and auditing of the model’s performance
+post-deployment are necessary to identify and rectify any emerging ethical concerns.
+Regular evaluations can address issues such as concept drift, ensuring the model
+remains relevant and reliable over time.
+By addressing these ethical considerations, the development and application of
+machine learning models for Vitiligo detection can align with principles of fairness,
+transparency, privacy, and accountability, fostering responsible and ethical integra-
+tion into healthcare practices.
+9 Future scope
+To enhance the generality and efficacy of Vitiligo detection using machine learn-
+ing techniques, a strategic approach involves the initiation of a large-scale medical
+study. This study would entail the inclusion of vitiligo patients from diverse back-
+grounds, ensuring a comprehensive representation of the population. Participants
+would contribute image samples for training models, encompassing a broad spectrum
+of ethnicities, skin types, and variations in the manifestation of the skin disease.
+Improved hardware resources would play a pivotal role in this endeavor, offering
+the capacity to train more sophisticated and complex models. The increased com-
+putational capabilities would facilitate the exploration of advanced neural network
+architectures, potentially incorporating deeper and more intricate structures. This
+adaptability to more complex models is crucial for capturing the subtle intricacies
+inherent in the manifestation of vitiligo across diverse populations.
+Furthermore, a large-scale medical study would not only contribute to a more
+expansive and representative dataset but also enhance the robustness and generaliz-
+ability of the machine learning models. The amalgamation of diverse patient data,
+coupled with advancements in hardware, holds the potential to propel Vitiligo de-
+19/23
+20117005 Vitiligo Detection Aditya Ghidora
+tection models to new heights of accuracy and adaptability, paving the way for more
+effective diagnostic tools in dermatology.
+10 Conclusion
+In conclusion, the Vitiligo detection machine learning project represents a signifi-
+cant stride towards leveraging advanced technologies for dermatological diagnosis.
+Through the strategic amalgamation of cutting-edge techniques, including Convo-
+lutional Neural Networks (CNNs) and Transfer Learning using ResNet50, we have
+endeavored to enhance the accuracy and efficiency of Vitiligo detection in diverse
+image datasets.
+The exploration of various model architectures, coupled with meticulous dataset
+curation and augmentation strategies, underscore the commitment to developing
+a robust and versatile diagnostic tool. The comparative analysis of model perfor-
+mances, emphasizing metrics such as accuracy, precision, and recall, has provided
+valuable insights into the strengths and nuances of each approach.
+The deployment of the Vitiligo detection model as an API, hosted on Google
+Cloud Run, signifies a commitment to accessibility and scalability. FastAPI, serving
+as the backend framework, facilitates seamless interaction between the frontend and
+the machine learning model.
+While this project exhibits promising outcomes, the dynamic nature of medical
+datasets and the intricate complexities of skin conditions necessitate ongoing research
+and refinement. Future iterations may explore additional modalities, consider inter-
+pretability and fairness, and incorporate user feedback for an increasingly holistic
+and effective Vitiligo detection solution. Overall, this project lays the foundation for
+continued advancements at the intersection of machine learning and dermatology,
+contributing to the broader landscape of intelligent healthcare solutions.
+20/23
+20117005 Vitiligo Detection Aditya Ghidora
+11 References
+[1] Compiled vitiligo dataset. https://www.kaggle.com/datasets/shinynose/
+vitiligo. Accessed: 2023-11-26.
+[2] Dermnet: Vitiligo images. https://dermnetnz.org/assets/collection/
+Vitiligo/vitiligo-0029__WatermarkedWyJXYXRlcm1hcmtlZCJd.jpg. Ac-
+cessed: 2023-11-26.
+[3] Model performance metrics. https://github.com/kurayami07734/
+PythonProjects/blob/main/AI/vitiligoDetection/metrics.ipynb. Ac-
+cessed: 2023-11-26.
+[4] Vitiligo: diagonsis and treatment. https://www.mayoclinic.org/
+diseases-conditions/vitiligo/diagnosis-treatment/drc-20355916.
+Accessed: 2023-11-26.
+[5] Vitiligo: symptoms and causes. https://www.mayoclinic.org/
+diseases-conditions/vitiligo/symptoms-causes/syc-20355912. Accessed:
+2023-11-26.
+[6] Shagun Sharma, Kalpna Guleria, Sushil Kumar, and Sunita Tiwari. Deep learn-
+ing based model for detection of vitiligo skin disease using pre-trained inception
+v3. International Journal of Mathematical, Engineering and Management Sci-
+ences, 8(5):1024, 2023.
+[7] Jessica Velasco, Cherry Pascion, Jean Wilmar Alberio, Jonathan Apuang,
+John Stephen Cruz, Mark Angelo Gomez, Benjamin Molina Jr, Lyndon Tu-
+ala, August Thio-ac, and Romeo Jorda Jr. A smartphone-based skin disease
+classification using mobilenet cnn. arXiv preprint arXiv:1911.07929, 2019.
+21/23
+20117005 Vitiligo Detection Aditya Ghidora
+List of Figures
+1 Emerging use of AI in medical diagnosis . . . . . . . . . . . . . . . . 2
+2 Extensive symmetric facial Vitiligo [2] . . . . . . . . . . . . . . . . . . 3
+3 Medical diagram of Vitiligo [5] . . . . . . . . . . . . . . . . . . . . . . 3
+4 Simplified architecture of the application . . . . . . . . . . . . . . . . 4
+5 Architecture of the ResNet50 model . . . . . . . . . . . . . . . . . . . 7
+6 Summary of layers of simple CNN model . . . . . . . . . . . . . . . . 10
+7 Summary of layers of CNN model with data augmentation . . . . . . 11
+8 Summary of simple ResNet50 Model . . . . . . . . . . . . . . . . . . 13
+9 Summary of ResNet50 model with data augmentation . . . . . . . . . 14
+10 Comparison of accuracy of models . . . . . . . . . . . . . . . . . . . . 15
+11 Comparison of precision of models . . . . . . . . . . . . . . . . . . . . 15
+12 Comparison of recall of models . . . . . . . . . . . . . . . . . . . . . . 16
+13 Comparison of accuracy of models from the reviewed papers (from
+table1) . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+14 User Interface of the application . . . . . . . . . . . . . . . . . . . . . 17
+15 Flow chart of the FastAPI backend . . . . . . . . . . . . . . . . . . . 18
+22/23
+20117005 Vitiligo Detection Aditya Ghidora
+List of Tables
+1 Comparison of models created by relevant papers . . . . . . . . . . . 5
+2 Classwise split of dataset . . . . . . . . . . . . . . . . . . . . . . . . . 6
+3 Test results for simple CNN model [3] . . . . . . . . . . . . . . . . . . 9
+4 Test results for CNN model with data augmentation [3] . . . . . . . . 12
+5 Test results for simple ResNet50 model [3] . . . . . . . . . . . . . . . 12
+6 Test results for the ResNet50 model with data augmentation [3] . . . 13
+Nomenclature
+AI Artifical Intelligence
+API Application Programming Interface
+CNN Convolutional Neural Network
+CPU Central Processing Unit
+DL Deep Learning
+GPU Graphical Processing Unit
+ML Machine Learning
+RAM Random Access Memory
+TL Transfer Learning
+23/23
